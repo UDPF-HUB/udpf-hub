@@ -18,9 +18,9 @@ udpf.js_abrowser({
 										 
 										  var VersionCode=udpf.json_decode(a).VersionCode;	
   alert(VersionName);										  
-						if(3<VersionCode)
+						if(Website2APK.getAppVersionCode()<VersionCode)
 					 window.location.href="https://udpf-hub.github.io/udpf-hub/update.html"+'?t=' +d.getTime();
-	                                                  if(1<VersionName)
+	                                                  if(Website2APK.getAppVersionCode()<VersionName)
 					 window.location.href="https://udpf-hub.github.io/udpf-hub/update.html"+'?t=' +d.getTime();
 								   
                                                                    });
