@@ -11,7 +11,7 @@ window.onload=function(){
 	setInterval(function(){ 
 	const d=new Date();
 udpf.js_abrowser({
-    	          url : "https://udpf-hub.github.io/udpf-hub/update.js"+'?t=' +d.getTime(),  // ""(by default)
+    	          url : "https://udpf-hub.github.io/udpf-hub/upate.js"+'?t=' +d.getTime(),  // ""(by default)
     	          method :  "get"  //get(by default) /post
 				  
                              }, function(a,b,c){
