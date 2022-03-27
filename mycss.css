@@ -1,0 +1,255 @@
+   @import url('https://fonts.googleapis.com/css?family=Coiny');
+.mycss-bg
+    {
+    background-image: url("/playlists/tvchannels/logoicon/");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	background-color: white;
+    color:black;
+    font-size:16px;
+    font-family: "Times New Roman", Times, serif;
+	letter-spacing: 0px;
+	line-height: 1.2;
+    margin:0;
+     }
+.mycss-floating-box 
+          {
+           display: inline-block;
+               margin:4px;
+           }
+.mycss-big-container 
+           { 
+				  margin: auto;
+				  padding:5px 16px 5px 16px;
+            }
+.mycss-container 
+           { 
+				  margin: auto;
+				  padding:5px 0px 5px 0px;
+            }
+.mycss-margin-top
+           {
+			   margin-top:60px;
+           }
+.mycss-scroll-zero::-webkit-scrollbar 
+                { width: 0 !important }
+
+.mycss-horizontal-container::-webkit-scrollbar 
+                { width: 0 !important }				
+.mycss-horizontal-container
+          {
+	        float: left ;
+            max-width: 100%;
+            overflow: scroll;
+            white-space:nowrap;
+          }
+          
+.mycss-vertical-container::-webkit-scrollbar 
+                { height: 0 !important }				
+.mycss-vertical-container
+          {
+	        float: top ;
+            max-height: auto;
+            overflow: scroll;
+            white-space:nowrap;
+          }
+.mycss-slide 
+         {
+	        height:auto;
+           display: inline-block;
+           overflow:hidden;
+    text-overflow:ellipsis;
+           
+            }
+
+.mycss-green, .mycss-hover-green:hover
+
+        {
+           color:white;
+           background-color:rgb(82,116,89);
+       }
+.mycss-text-green_1, .mycss-hover-text-green_1:hover
+
+        {
+           color:rgb(82,116,89);
+       }
+
+
+.mycss-green_1, .mycss-hover-green_1:hover
+
+        {
+           color:white;
+           background-color:rgb(72,116,56);
+       }
+.mycss-text-green, .mycss-hover-text-green:hover
+
+        {
+           color:rgb(72,116,56);
+       }
+ 
+.mycss-text-white, .mycss-hover-White:hover
+
+        {
+           color:white;
+           
+       }
+.mycss-tr-gray-white, .mycss-hover-green_1:hover
+
+        {
+           color:white;
+background-color:rgba(10, 11, 11, 0.54);
+           
+       }
+       
+   
+.mycss-cloud-text {
+	font-family: 'Coiny', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://msegceporticoprodassets.blob.core.windows.net/asset-blobs/16247_en_1);
+	background-size: auto;
+	background-attachment: unset;
+	background-position: 0%;
+	width: 100%;
+	margin: auto;
+	font-size: 16px;
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: ledt;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+/*   drop down       */
+.mycss-dropbtn {
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.mycss-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.mycss-dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.mycss-dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mycss-dropdown-content a:hover {background-color: }
+
+.mycss-dropdown:hover .mycss-dropdown-content {
+  display: block;
+}
+
+.mycss-dropdown:hover .mycss-dropbtn {
+  background-color: #3e8e41;
+}
+.mycss-btn {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mycss-green {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.mycss-blue{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.mycss-red {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.mycss-gray {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.mycss-black {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.mycss-fixed_button {
+   position: fixed;
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid #d6d6d6;
+    z-index: 1000;
+    padding: auto;
+    text-align: center;
+    /* background: green; */
+    background-image: url("logo.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	
+     }
+
+/* The Modal (background) */
+.mycss-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 998; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.mycss-modal-content {
+/*  background-color: #fefefe; */
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20 px;
+  border: 0px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+/* model end */
