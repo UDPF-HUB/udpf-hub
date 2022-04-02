@@ -45,6 +45,8 @@ for(var i=0; i< url.length; i++) {
 
 //return __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
 document.getElementById("ext_player_url").src = __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
-ext.main.plyr_init();
+//ext.main.plyr_init();
+	
+ext.main.plyr_init_mod_jionews();
  }
 
