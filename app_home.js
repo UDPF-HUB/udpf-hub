@@ -11,7 +11,8 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1167/661167-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL</p></div>'+
+'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1167/661167-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-1</p></div>'+
+'<div  onclick='+'udpf_link_finder1("master_dynamic_highlatency.m3u8?type=live","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1167/661167-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-2</p></div>'+
 
 '<!-- horizontal contdiner items ends-->'+
 '</div>'+
