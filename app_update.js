@@ -28,9 +28,6 @@ udpf.js_abrowser({
 	
 	
 	}, 10000);
-
-window.onload=function(){
-
 function udpf_link_finder1(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
@@ -50,4 +47,3 @@ return __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").re
  
  }
 
-};
