@@ -1,0 +1,109 @@
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/aaj_tak.png" status="online",Aaj Tak HD
+https://aajtakhdlive-amd.akamaized.net/hls/live/2014415/aajtakhd/aajtakhdlive/aajtakhd_3/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/aaj_tak.png" status="online",Aaj Tak
+https://feeds.intoday.in/aajtak/api/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/gg/good-news-today-in.png" status="online",AajTAK GNT
+https://feeds.intoday.in/gnt/api/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/india_today_in_tv.png" status="online",Aaj India today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/aaj_tak.png" status="error",Aaj Tak SD
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/aajtak_5/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/india_today_in_tv.png" status="error",India Today 
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/indiatoday_5/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-news-in.png" status="online",Abp News
+https://abp-i.akamaihd.net/hls/live/765529/abphindi/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-ganga-in.png" status="online",Abp Ganga
+https://abp-i.akamaihd.net/hls/live/796944/abpganga/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-sanjha-in.png" status="online",Abp Sanjha
+https://abp-i.akamaihd.net/hls/live/765533/abpsanjha/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-majha-in.png" status="online",Abp Majha
+https://m-c02-j2apps.s.llnwi.net/hls/7016.ABPMajha.in.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/ndtv_india.png" status="online",Ndtv India
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/zz/zee-news-in.svg" status="online",Zee News
+https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_2.m3u8  
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/CNBC_Awaaz.png" status="online",CNBC Awaaz
+https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/news-1-india-in.png" status="online",,News18 India
+https://news18india-lh.akamaihd.net/i/news18india_1@174951/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/india_tv_in.png" status="online",India TV
+https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/indiatv-origin/live2/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/rr/republic_in.png" status="online",RB ENG
+https://weblive.republicworld.com/httppush/ottr_republic_english/chunklist_2.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/rr/republic-bangla-in.png" status="online",RB Bangala
+ https://rbangla.pc.cdn.bitgravity.com/live/rbanglatv/chunklist_2.m3u8 
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/India_news.png" status="online",India News
+https://itvoign.multitvsolution.com/hls/inkhabar.m3u8 
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/news-24-in.png" status="online",News 24
+https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png" status="online",Rajya Sabha TV
+https://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png" status="online",Lok Sabha TV
+https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8?sd=10&rebase=on
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/dd/dd-news-in.png" status="online",DD News 
+https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/TV9_Bharatvarsh.png" status="online",Tv9 Bharatvarsh
+https://vidcdn.vidgyor.com/tv9bharatvarsh-origin/live/tv9bharatvarsh-origin/live1/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Tez.png" status="online",Tez 
+https://tezlive-amd.akamaized.net/hls/live/2016145/tez/tezlive/tez_4/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/News_Nation.png" status="online",News Nation
+https://m-c02-j2apps.s.loris.llnwd.net/hls/1062.NewsNation.in_360p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_24x7.png" status="online",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Profit.png" status="online",NDTV Profit
+https://ndtv.pc.cdn.bitgravity.com/ndtv/live/amlst:ndtv_profit_,48,128,256,382,512,.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Times_NOW.png" status="online",Times Now
+https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/ET_Now.png" status="online",Et Now
+https://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index.m3u8?sd=10&rebase=on
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Mirror_Now.png" status="online",Mirror Now
+https://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_News.png" status="online",Ptc News
+https://streaming.ptcplay.com/PTCNEWSINONE/smil:Live.smil/chunklist.m3u8
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ijLDUSX.png" status="online" group-title="Indian Bangla", ABP Ananda
+https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera FHD
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera HD
+https://live-hls-web-aje.getaj.net/AJE/02.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera SD
+https://live-hls-web-aje.getaj.net/AJE/03.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rDkxPUU.png" status="online" group-title="English News", Arirang Korea
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" status="online" group-title="English News", BBC World News
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" status="online" group-title="English News", BBC World News.
+https://livecdn.fptplay.net/sdb/bbcnew_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AsLYbdw.png" status="online" group-title="English News", CNA HD
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jy3Vr9F.png" status="online" group-title="English News", CNN HD 
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LiwiLPN.png" status="online" group-title="English News", Deutsche Welle
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LiwiLPN.png" status="online" group-title="English News",DW English
+https://livecdn.fptplay.net/hda2/dwenglish_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30tzHYj.png" status="online" group-title="English News", NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3wWoMzk.png" status="online" group-title="English News", NHK World Japan
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UyIJDcE.png" status="error" group-title="English News", Sky News
+https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bAzFoQG.png" status="online" group-title="English News", Times Now
+https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YUFz10j.png" status="online" group-title="English News", Voice of America
+http://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8

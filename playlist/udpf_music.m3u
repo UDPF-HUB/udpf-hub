@@ -1,0 +1,58 @@
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png" status="online",9XM
+https://m-c01-j2apps.s.llnwi.net/live_hd/0306.9XM.in_480p/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3mkjuTk.png" status="online" group-title="Music", 9X Jalwa
+https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RCKpn0U.png" status="online" group-title="Music", 9X Jhakaas
+https://m-c01-j2apps.s.llnwi.net/live/0750.9XJhakaas.in.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Mastiii.png" status="online",Mastii Music
+https://m-c07-j2apps.s.llnwi.net/hls/0589.Mastiii.in.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LZ7W3Yc.png" status="online" group-title="Music", Masti TV
+http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wg3N1VT.png" status="online" group-title="Music", Music India
+http://103.199.160.85/Content/musicindia/Live/Channel(MusicIndia)/Stream(02)/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g9OTeXV.png" status="online" group-title="Music", Sangeet Bangla
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" status="online",Zoom
+https://zoomweblive-lh.akamaihd.net/i/Zoomweb_1@348071/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Chak_De.png" status="online",Ptc Chakde
+https://streaming.ptcplay.com/ptcchakdeINONE/smil:Live.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rEhhYpe.png" status="online" group-title="Music", Boogle Bollywood
+http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RPRT3Zq.png" status="online" group-title="Music", Bol Hadippa
+https://live.hungama.com/linear/bol-hadippa/playlist_144p/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/stZqDcA.png" status="online" group-title="Music", B4U Music
+https://m-c01-j2apps.s.llnwi.net/hls_hd/0204.MusicIndia.in.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UCLBXlT.png" status="online" group-title="Music", MH 1
+http://rtmp.smartstream.video:1935/mhonemusic/mhonemusic/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/f1krDIF.png" status="online" group-title="Music", 8X music
+http://125.209.88.166:45793/BRN/8XM.stream/playlist.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="error" group-title="Music", MTV YO! HD
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="error" group-title="Music", MTV BIGGEST POP HD
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="error" group-title="Music", MTV BLOCK PARTY HD
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="error" group-title="Music", MTV SPANKIN’ HD
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="error" group-title="Music", MTV WMA HD
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MaNNHCm.png" status="error" group-title="Music", MTV Beats HD+
+http://144.217.70.181:9587/hin2/MTVBEATSHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sGNdnMT.png" status="error" group-title="Music", MTV HD+
+http://144.217.70.181:9587/hin2/MTVINDIA/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PmXZNaK.png" status="error" group-title="Music", RTV Music 
+http://103.43.148.202:1931/iptv/rtvmusic.stream/chunks.m3u8
