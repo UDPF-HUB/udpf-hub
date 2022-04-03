@@ -1,21 +1,21 @@
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/bb/bflix-movies-in.png" status="online",Bflix Movies
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Pitaara Tv
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Pitaara.png" status="online",Pitaara Tv
 https://5b48d7e1b4bce.streamlock.net/pitara/pitaratv/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Ptc Punjabi Gold
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Punjabi_Gold.png" status="online",Ptc Punjabi Gold
 https://streaming.ptcplay.com/ptcpunjabiGoldINOne/smil:Live.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Ptc Punjabi
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Punjabi.png" status="online",Ptc Punjabi
 https://streaming.ptcplay.com/ptcPunjabiINOne/smil:Live.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Shemaroo TV 
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Shemaroo_TV.png" status="error",Shemaroo TV 
 https://voot.shemaroo.com/shemarootv/smil:shemarootvadp.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",9XM
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png" status="online",9XM
 https://m-c01-j2apps.s.llnwi.net/live_hd/0306.9XM.in_480p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Mastii Music
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Mastiii.png" status="online",Mastii Music
 https://m-c07-j2apps.s.llnwi.net/hls/0589.Mastiii.in_480p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Zoom
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" status="online",Zoom
 https://zoomweblive-lh.akamaihd.net/i/Zoomweb_1@348071/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Ptc Chakde
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Chak_De.png" status="online",Ptc Chakde
 https://streaming.ptcplay.com/ptcchakdeINONE/smil:Live.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/aaj_tak.png" status="online",Aaj Tak HD
@@ -26,6 +26,12 @@ https://feeds.intoday.in/aajtak/api/master.m3u8
 https://feeds.intoday.in/gnt/api/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/india_today_in_tv.png" status="online",Aaj India today
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/aaj_tak.png" status="error",Aaj Tak SD
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/aajtak_5/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/india_today_in_tv.png" status="error",India Today 
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/indiatoday_5/chunklist.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-news-in.png" status="online",Abp News
 https://abp-i.akamaihd.net/hls/live/765529/abphindi/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-ganga-in.png" status="online",Abp Ganga
@@ -39,7 +45,7 @@ https://m-c02-j2apps.s.llnwi.net/hls/7016.ABPMajha.in.m3u8
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/zz/zee-news-in.svg" status="online",Zee News
 https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_2.m3u8  
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",CNBC Awaaz
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/CNBC_Awaaz.png" status="online",CNBC Awaaz
 https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/news-1-india-in.png" status="online",,News18 India
 https://news18india-lh.akamaihd.net/i/news18india_1@174951/index.m3u8
@@ -49,35 +55,34 @@ https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/indiatv-origin/liv
 https://weblive.republicworld.com/httppush/ottr_republic_english/chunklist_2.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/rr/republic-bangla-in.png" status="online",RB Bangala
  https://rbangla.pc.cdn.bitgravity.com/live/rbanglatv/chunklist_2.m3u8 
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",India News
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/India_news.png" status="online",India News
 https://itvoign.multitvsolution.com/hls/inkhabar.m3u8 
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",News 24
+#EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/news-24-in.png" status="online",News 24
 https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Rajya Sabha TV
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png" status="online",Rajya Sabha TV
 https://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Lok Sabha TV
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png" status="online",Lok Sabha TV
 https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8?sd=10&rebase=on
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/dd/dd-news-in.png" status="online",DD News 
 https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Tv9 Bharatvarsh
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/TV9_Bharatvarsh.png" status="online",Tv9 Bharatvarsh
 https://vidcdn.vidgyor.com/tv9bharatvarsh-origin/live/tv9bharatvarsh-origin/live1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Aaj Tak Sd
-https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/aajtak_5/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Tez 
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Tez.png" status="online",Tez 
 https://tezlive-amd.akamaized.net/hls/live/2016145/tez/tezlive/tez_4/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",News Nation
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/News_Nation.png" status="online",News Nation
 https://m-c02-j2apps.s.loris.llnwd.net/hls/1062.NewsNation.in_360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",India Today 
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/indiatoday_5/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",NDTV 24x7
+
+
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_24x7.png" status="online",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",NDTV Profit
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Profit.png" status="online",NDTV Profit
 https://ndtv.pc.cdn.bitgravity.com/ndtv/live/amlst:ndtv_profit_,48,128,256,382,512,.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Times Now
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Times_NOW.png" status="online",Times Now
 https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Et Now
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/ET_Now.png" status="online",Et Now
 https://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index.m3u8?sd=10&rebase=on
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Mirror Now
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Mirror_Now.png" status="online",Mirror Now
 https://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/images/lyngsat_336x80.gif" status="online",Ptc News
+#EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/PTC_News.png" status="online",Ptc News
 https://streaming.ptcplay.com/PTCNEWSINONE/smil:Live.smil/chunklist.m3u8
