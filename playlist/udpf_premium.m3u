@@ -78,9 +78,8 @@ http://103.199.160.85/Content/musicindia/Live/Channel(MusicIndia)/Stream(02)/ind
 http://103.43.148.202:1931/iptv/rtvmusic.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/g9OTeXV.png" status="online" group-title="Music", Sangeet Bangla
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/g9OTeXV.png" status="online" group-title="Music", Sangeet Bangla.
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wRc0YAb.png" status="online" group-title="Music", Zoom.
-http://103.55.144.46/hls/zoom.m3u8
+https://zoomweblive-lh.akamaihd.net/i/Zoomweb_1@348071/master.m3u8
 
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png"  group-title="NEXT-TV-LIVE",SONY HD
 https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
