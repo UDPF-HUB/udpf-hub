@@ -35,7 +35,7 @@ https://16live00.akamaized.net/BTSPORTS2/index.m3u8
 #EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_3HD_2018_WHITE_FULL_RGB.svg" status="online",
 https://16live00.akamaized.net/BTSPORTS1/index.m3u8
 
-#EXTINF:-1 tvg-logo="" status="online", Cricket TV (INDIA)
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e4bffcd1e.png" status="online", Cricket TV (INDIA)
 https://rcpems02.jio.ril.com/live.kube.cdn.ril.com/bpk-tv/TEST3_HD_MOB/output01/index.m3u8
 
 
@@ -87,17 +87,22 @@ http://103.166.253.222/hls/sonyten3.m3u8
 http://103.166.253.222/hls/sonysix.m3u8
 
 
-#EXTINF:-1 tvg-logo="" status="online",Ad Sports 1
-https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" status="online",Ad Sports 2
-https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" status="online",Ad Sports 3
-https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6a88b.png" status="online",Ad Sports 1
+https://admdn1ta.cdn.mgmlcdn.com/adsports1/smil:adsports1.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6b210.png" status="online",Ad Sports 2
+https://admdn5ta.cdn.mgmlcdn.com/adsports2/smil:adsports2.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6bec3.png" status="online",Ad Sports 3
+https://admdn3ta.cdn.mgmlcdn.com/adsports3/smil:adsports3.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/6214d50c63.png" status="online",Ad Sports 4
+https://admdn4.cdn.mgmlcdn.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e4c03ef4b.png" status="online", YasTV 
+https://admdn1ta.cdn.mgmlcdn.com/yastv/smil:yastv.stream.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="" status="online",FOX Sports News HD (akamai)
+
+#EXTINF:-1 tvg-logo="https://b.fssta.com/uploads/application/external-logos/fox-sports-app.svg" status="online",FOX Sports News HD (akamai)
 https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8
 
-#EXTINF:-1 tvg-logo="" status="error",ESPN Sport
+#EXTINF:-1 tvg-logo="zzzzzzz" status="error",ESPN Sport
 http://144.217.98.14:80/ESPN/tracks-v1a1/mono.m3u8
 
 
