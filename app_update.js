@@ -57,10 +57,12 @@ var url="https://api.hotstar.com/play/v4/playback/content/"+id+"?device-id=7abb0
 var header={
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9,fil;q=0.8",
+    "cache-control": "no-cache",
     "content-type": "application/json",
-    "hotstarauth": "st=1649062932~exp=1649068932~acl=/*~hmac=ca1b6f74279ba7636af0780dc875a2bd30da8dfa7bb3a46f412a389feee120f2",
+    "hotstarauth": "st=1649069654~exp=1649075654~acl=/*~hmac=4b571068d320a6749660ac29bc7a719b06ccd1bab6bb0a2e3ee6eea3a4cf3a95",
+    "pragma": "no-cache",
     "x-country-code": "in",
-    "x-hs-request-id": "acc38684-6158-41e0-853b-0b2f7b66e0f3",
+    "x-hs-request-id": "535dc1dc-92e5-4ed7-94f6-ba8f00cc065e",
     "x-hs-usertoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1bV9hY2Nlc3MiLCJleHAiOjE2NDkxMzM1NzksImlhdCI6MTY0OTA0NzE3OSwiaXNzIjoiVFMiLCJqdGkiOiIwNTIwYWJjY2NmM2M0NWUwYWZlOGIxOTQ2YmI0MDE1NSIsInN1YiI6IntcImhJZFwiOlwiNzE0M2M2NTYxNGU0NGMxOGI5MGEwNTFiNzU0OGQ5YjhcIixcInBJZFwiOlwiMzJkZDFjMDIzYmE4NDkzYzhmNjRjMmUzNGI5MzhiMDlcIixcIm5hbWVcIjpcIkJodXZhblwiLFwicGhvbmVcIjpcIjcyNzgwNTE5NzZcIixcImlwXCI6XCIyNDAxOjQ5MDA6Mzg1Yjo1YTg0OjY1MDQ6YzBmODo4OTFkOjJlOFwiLFwiY291bnRyeUNvZGVcIjpcImluXCIsXCJjdXN0b21lclR5cGVcIjpcIm51XCIsXCJ0eXBlXCI6XCJwaG9uZVwiLFwiaXNFbWFpbFZlcmlmaWVkXCI6ZmFsc2UsXCJpc1Bob25lVmVyaWZpZWRcIjp0cnVlLFwiZGV2aWNlSWRcIjpcIjdhYmIwMmZiLTQyN2MtNDlkOC04NWUyLWYwZGFiODM1NTI4ZVwiLFwicHJvZmlsZVwiOlwiQURVTFRcIixcInZlcnNpb25cIjpcInYyXCIsXCJzdWJzY3JpcHRpb25zXCI6e1wiaW5cIjp7XCJIb3RzdGFyTW9iaWxlXCI6e1wic3RhdHVzXCI6XCJTXCIsXCJleHBpcnlcIjpcIjIwMjMtMDEtMTJUMjA6MTI6NDQuMDAwWlwiLFwic2hvd0Fkc1wiOlwiMVwiLFwiY250XCI6XCIxXCJ9fX0sXCJlbnRcIjpcIkNnMFNDd2dCT0FGQUFWRFFCVmdCQ2pjS0JRb0RDZ0VGRWk0U0IyRnVaSEp2YVdRU0EybHZjeElIYW1sdkxXeDVaaG9DYzJRYUFtaGtJZ056WkhJcUJuTjBaWEpsYjFnQkNpSUtHZ29PRWdVMU5UZ3pOaElGTmpRd05Ea0tDQ0lHWm1seVpYUjJFZ1E0WkZnQkNwb0JDZ1VLQXdvQkFCS1FBUklIWVc1a2NtOXBaQklEYVc5ekVnZHFhVzh0YkhsbUVnbGhibVJ5YjJsa2RIWVNCbVpwY21WMGRoSUhZWEJ3YkdWMGRoSUVjbTlyZFJJRGQyVmlFZ1J0ZDJWaUVnZDBhWHBsYm5SMkVnVjNaV0p2Y3hJR2FtbHZjM1JpRWdwamFISnZiV1ZqWVhOMEVnUjBkbTl6RWdSd1kzUjJFZ05xYVc4YUFuTmtHZ0pvWkNJRGMyUnlLZ1p6ZEdWeVpXOVlBUklKQ0FFUTRJejB2Tm93XCIsXCJpc3N1ZWRBdFwiOjE2NDkwNDcxNzk3NTN9IiwidmVyc2lvbiI6IjFfMCJ9.p5Ioqoa4BmTiHQ4QXRCjMPg2rqGypPU9Tgj50nkV7nI"
   };
   
