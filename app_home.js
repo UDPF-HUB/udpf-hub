@@ -38,7 +38,9 @@ var header={
   
 var data='{"os_name":"Windows","os_version":"10","app_name":"web","app_version":"7.34.1","platform":"Chrome","platform_version":"100.0.4896.60","client_capabilities":{"ads":["non_ssai"],"audio_channel":["stereo"],"dvr":["short"],"package":["dash","hls"],"dynamic_range":["sdr"],"video_codec":["h264"],"encryption":["widevine"],"ladder":["tv"],"container":["fmp4"],"resolution":["hd"]},"language":"hin","drm_parameters":{"widevine_security_level":["SW_SECURE_DECODE","SW_SECURE_CRYPTO"],"hdcp_version":["HDCP_NO_DIGITAL_OUTPUT"]},"resolution":"auto"}';
 var op=udpf.js_browser(url,"post", data,header);
+	alert(op);
 var url=udpf.json_decode(op.trim()).data.playback_sets[0].playback_url ;
+	
 document.getElementById("ext_player_url").src =url;
  ext.main.plyr_init_mod_jionews();
 	//alert("hi1");
@@ -59,7 +61,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-  '<div  onclick='+'hotstar_url("1260081569")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">Hotstar IPL</p></div>'+
+  '<div  onclick='+'hotstar_url("1540014152")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">Hotstar IPL</p></div>'+
 '<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-1</p></div>'+
 '<div  onclick='+'udpf_link_finder1("master_dynamic_highlatency.m3u8?type=live","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-2</p></div>'+
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/mx-player-all-in-one-link.html")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL HINDI </p></div>'+
