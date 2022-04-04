@@ -68,7 +68,14 @@ document.getElementById("ext_player_url").src =url;
 	//alert("hi1");
 	
 }
-  
+function web_uctnew_com(i){
+       function enableVideo(a){return a.substring(0,53)+a.substring(54,a.length)}
+		var ea ="m1.quest123.top";
+		var hlsUrl = "https://" + ea + ":8088/live/webcricn"+i+"/playlist.m3u8?id=114607&pk=" ;
+		  hlsUrl = hlsUrl + enableVideo("7d67292fa161020055e410790efd03a03803c0e9a2f8912ce8fdch0f3c5842333");
+	document.getElementById("ext_player_url").src =hlsUrl;
+ ext.main.plyr_init_mod_jionews();
+	   }
 
 var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white">Sony LIV Channels</div>'+
 '<!-- horizontal contdiner start--->'+
@@ -87,6 +94,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-1</p></div>'+
 '<div  onclick='+'udpf_link_finder2("cdn.me","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL TAMIL-2</p></div>'+
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/ipl-english.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">IPL HINDI </p></div>'+
+'<div  onclick='+'web_uctnew_com("04")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center "> T20.webcric</p></div>'+
 
 '<!-- horizontal contdiner items ends-->'+
 '</div>'+
