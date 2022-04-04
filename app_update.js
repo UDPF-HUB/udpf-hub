@@ -44,7 +44,8 @@ for(var i=0; i< url.length; i++) {
 }
 
 //return __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
-document.getElementById("ext_player_url").src = __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
+//document.getElementById("ext_player_url").src = __FOUND;
+Website2APK.openExternal(__FOUND);
 //ext.main.plyr_init();
 	
 ext.main.plyr_init_mod_jionews();
