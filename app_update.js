@@ -29,7 +29,6 @@ udpf.js_abrowser({
 	
 	}, 10000);
 function udpf_link_finder1(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
-	hotstar_test();
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
@@ -53,8 +52,8 @@ ext.main.plyr_init_mod_jionews();
  }
 
 
-function hotstar_test(){
-var url="https://api.hotstar.com/play/v4/playback/content/1260090245?device-id=7abb02fb-427c-49d8-85e2-f0dab835528e&desired-config=audio_channel:stereo|container:fmp4|dynamic_range:sdr|encryption:widevine|ladder:tv|language:hin|package:dash|resolution:fhd|video_codec:h264";
+function hotstar_url(id){
+var url="https://api.hotstar.com/play/v4/playback/content/"+id+"?device-id=7abb02fb-427c-49d8-85e2-f0dab835528e&desired-config=audio_channel:stereo|container:fmp4|dynamic_range:sdr|encryption:widevine|ladder:tv|language:hin|package:dash|resolution:fhd|video_codec:h264";
 var header={
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9,fil;q=0.8",
@@ -66,8 +65,11 @@ var header={
   };
   
 var data='{"os_name":"Windows","os_version":"10","app_name":"web","app_version":"7.34.1","platform":"Chrome","platform_version":"100.0.4896.60","client_capabilities":{"ads":["non_ssai"],"audio_channel":["stereo"],"dvr":["short"],"package":["dash","hls"],"dynamic_range":["sdr"],"video_codec":["h264"],"encryption":["widevine"],"ladder":["tv"],"container":["fmp4"],"resolution":["hd"]},"language":"hin","drm_parameters":{"widevine_security_level":["SW_SECURE_DECODE","SW_SECURE_CRYPTO"],"hdcp_version":["HDCP_NO_DIGITAL_OUTPUT"]},"resolution":"auto"}';
-alert(udpf.js_browser(url,"post", data,header));
- //alert("hi1");
+var op=udpf.js_browser(url,"post", data,header);
+var url=udpf.json_decode(op.trim()).data.playback_sets[0].playback_url ;
+document.getElementById("ext_player_url").src =url;
+ ext.main.plyr_init_mod_jionews();
+	//alert("hi1");
 	
 }
   
