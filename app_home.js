@@ -23,7 +23,7 @@ ext.main.plyr_init_mod_jionews();
 
 
 function hotstar_url(id){
-var url="https://api.hotstar.com/play/v4/playback/content/"+id+"?device-id=7abb02fb-427c-49d8-85e2-f0dab835528e&desired-config=audio_channel:stereo|container:fmp4|dynamic_range:sdr|encryption:widevine|ladder:tv|language:hin|package:dash|resolution:fhd|video_codec:h264";
+var url="https://api.hotstar.com/play/v4/playback/content/"+id+"?device-id=7abb02fb-427c-49d8-85e2-f0dab835528e&desired-config=ads:non_ssai|audio_channel:stereo|container:ts|dvr:short|dynamic_range:sdr|encryption:plain|ladder:web|language:hin|package:hls|resolution:fhd|video_codec:h264";
 var header={
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9,fil;q=0.8",
