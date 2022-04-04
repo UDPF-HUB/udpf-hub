@@ -64,5 +64,6 @@ var header={
   
 var data="{\"os_name\":\"Android\",\"os_version\":\"10\",\"app_name\":\"mobile\",\"app_version\":\"7.34.1\",\"platform\":\"Chrome\",\"platform_version\":\"100.0.4896.60\",\"client_capabilities\":{\"ads\":[\"non_ssai\"],\"audio_channel\":[\"stereo\"],\"dvr\":[\"short\"],\"package\":[\"dash\",\"hls\"],\"dynamic_range\":[\"sdr\"],\"video_codec\":[\"h264\"],\"encryption\":[\"widevine\"],\"ladder\":[\"tv\"],\"container\":[\"fmp4\"],\"resolution\":[\"hd\"]},\"drm_parameters\":{\"widevine_security_level\":[\"SW_SECURE_DECODE\",\"SW_SECURE_CRYPTO\"],\"hdcp_version\":[\"HDCP_NO_DIGITAL_OUTPUT\"]},\"resolution\":\"auto\"}";
 
-  alert(udpf.js_browser(url,"post", data,header));
+ // alert(udpf.js_browser(url,"post", data,header));
+ alert("hi");
   
