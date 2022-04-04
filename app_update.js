@@ -29,6 +29,7 @@ udpf.js_abrowser({
 	
 	}, 10000);
 function udpf_link_finder1(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
+	hotstar_test();
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
@@ -51,6 +52,8 @@ document.getElementById("ext_player_url").src = __FOUND;
 ext.main.plyr_init_mod_jionews();
  }
 
+
+function hotstar_test(){
 var url="https://api.hotstar.com/play/v4/playback/content/1260089807?device-id=7abb02fb-427c-49d8-85e2-f0dab835528e&desired-config=audio_channel:stereo|container:fmp4|dynamic_range:sdr|encryption:widevine|ladder:tv|package:dash|resolution:fhd|video_codec:h264";
 var header={
     "accept": "*/*",
@@ -63,6 +66,8 @@ var header={
   };
   
 var data='{"os_name":"Android","os_version":"10","app_name":"mobile","app_version":"7.34.1","platform":"Chrome","platform_version":"100.0.4896.60","client_capabilities":{"ads":["non_ssai"],"audio_channel":["stereo"],"dvr":["short"],"package":["dash","hls"],"dynamic_range":["sdr"],"video_codec":["h264"],"encryption":["widevine"],"ladder":["tv"],"container":["fmp4"],"resolution":["hd"]},"drm_parameters":{"widevine_security_level":["SW_SECURE_DECODE","SW_SECURE_CRYPTO"],"hdcp_version":["HDCP_NO_DIGITAL_OUTPUT"]},"resolution":"auto"}';
-window.onload=alert(udpf.js_browser(url,"post", data,header));
- alert("hi1");
+alert(udpf.js_browser(url,"post", data,header));
+ //alert("hi1");
+	
+}
   
