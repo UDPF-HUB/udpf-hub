@@ -73,7 +73,7 @@ function web_uctnew_com(i){
 		//var ea ="m1.quest123.top";
 		//var hlsUrl = "https://" + ea + ":8088/live/webcricn0"+i+"/playlist.m3u8vidictid=vidictid=190866504192&id=6" ;
 		 // hlsUrl = hlsUrl + enableVideo("7d67292fa161020055e410790efd03a03803c0e9a2f8912ce8fdch0f3c5842333");
-	         var  hlsUrl = "https://t08.quest123.top:8088/mobile/stream"+i+"_240p/playlist.m3u8?vidictid=190866504192&id=6&pk=07bdb92a1bd2511eae5d378c7d51235d00c6cd8c676094bab1e86d1b512a5fa4";
+	         var  hlsUrl = "https://t06.quest123.top:8088/mobile/stream"+i+"_240p/playlist.m3u8?id=6&pk=b1b5458445d90c5704db14e7646402bbf4b78c7254cfacc4e878c2f1ec9eebf8";
 	document.getElementById("ext_player_url").src = hlsUrl ;
  ext.main.plyr_init_mod_jionews();
 	   }
