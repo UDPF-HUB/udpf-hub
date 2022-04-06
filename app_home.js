@@ -115,7 +115,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 
 
 
-app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white"></div>'+
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white w3-hide">Sports</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
