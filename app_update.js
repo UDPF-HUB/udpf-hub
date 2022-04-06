@@ -1,7 +1,7 @@
 
 	var appUpdate=function(){
 	
-	var url="https://udpf-hub.github.io/udpf-hub/UDPF HUB_1_4.0.apk";
+	var url="https://udpf-hub.github.io/udpf-hub/UDPF%20HUB_3_4.0.apk";
 	window.location.href=url;
 	Website2APK.openExternal(url);
 	}
