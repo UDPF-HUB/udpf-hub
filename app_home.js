@@ -77,15 +77,12 @@ function web_uctnew_com(i){
 	document.getElementById("ext_player_url").src = hlsUrl ;
  ext.main.plyr_init_mod_jionews();
 	   }
-function web_uctnew_com1(i){
-       function enableVideo(a){return a.substring(0,53)+a.substring(54,a.length)}
-		var ea ="m1.quest123.top";
-		var hlsUrl = "https://" + ea + ":8088/live/webcricn0"+i+"/playlist.m3u8vidictid=vidictid=190866504192&id=6&pk=" ;
-		  hlsUrl = hlsUrl + enableVideo("7d67292fa161020055e410790efd03a03803c0e9a2f8912ce8fdch0f3c5842333");
-	         //var  hlsUrl = "https://t08.quest123.top:8088/mobile/stream"+i+"_240p/playlist.m3u8?vidictid=190866504192&id=6&pk=07bdb92a1bd2511eae5d378c7d51235d00c6cd8c676094bab1e86d1b512a5fa4";
-	document.getElementById("ext_player_url").src = hlsUrl ;
+function link_url(i){
+       
+	        	document.getElementById("ext_player_url").src = i ;
  ext.main.plyr_init_mod_jionews();
 	   }
+
 
 var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white">Sony LIV Channels</div>'+
 '<!-- horizontal contdiner start--->'+
@@ -102,12 +99,11 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<div class="mycss-horizontal-container" style="width:100%;">'+
 //'<div  onclick='+'hotstar_url("1540014152")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">Hotstar IPL</p></div>'+
 //'<div  onclick='+'web_uctnew_com("4")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center "> T20.webcric</p></div>'+
+'<div  onclick='+'udpf_link_finder1("playback.live-video.net","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi-1</p></div>'+
+'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi-2</p></div>'+
+'<div  onclick='+'udpf_link_finder1("cdn.me","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi-3</p></div>'+
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/ipl-english.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1167/661167-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'udpf_link_finder1("m3u8","http://t-stream.techyshikari.in/2022/03/ipl-all-quality-hindi_18.html")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi </p></div>'+
-'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1693660219-0s3QnAMBRhU0YjZl")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Tamil</p></div>'+
-'<div  onclick='+'udpf_link_finder1("cdn.me","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL tamil-2</p></div>'+
-'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Tamil-3</p></div>'+
-'<div  onclick='+'udpf_link_finder2("video.pscp.tv","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL tamil-4</p></div>'+
+'<div  onclick='+'link_url("https://tamil.liveipl2022.xyz/player/master.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="" width="100%" height="100px"><p class="w3-center ">IPL Tamil</p></div>'+
 
 '<!-- horizontal contdiner items ends-->'+
 '</div>'+
