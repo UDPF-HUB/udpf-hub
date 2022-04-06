@@ -80,7 +80,7 @@ function web_uctnew_com(i){
 function link_url(i){
        
 	        	document.getElementById("ext_player_url").src = i ;
- //ext.main.plyr_init();
+ ext.main.plyr_init();
 	   }
 
 
