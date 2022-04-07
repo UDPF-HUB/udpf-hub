@@ -78,9 +78,12 @@ function web_uctnew_com(i){
  ext.main.plyr_init_mod_jionews();
 	   }
 function link_url(i){
-       
-	        	Website2APK.openExternal(i) ;
- //ext.main.plyr_init();
+    document.getElementById("ext_player_url").src =i ;
+ ext.main.plyr_init();
+	   }
+
+function link_url1(i){
+Website2APK.openExternal(i) ;
 	   }
 
 
@@ -97,15 +100,13 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-//'<div  onclick='+'hotstar_url("1540014152")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1180/661180-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center ">Hotstar IPL</p></div>'+
-//'<div  onclick='+'web_uctnew_com("4")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1171/661171-h" alt="Star Sports 1 HD" width="100%" height="100px"><p class="w3-center "> T20.webcric</p></div>'+
-'<div  onclick='+'link_url("http://103.135.133.21/hls/stream3.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL EXT</p></div>'+
-'<div  onclick='+'link_url("http://174.138.19.208/live/KKRvsMI.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL EXT</p></div>'+
-
+'<div  onclick='+'link_url("http://103.135.133.21/hls/stream3.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/ipl-english.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'udpf_link_finder1("mycdn.me/hls","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi</p></div>'+
-'<div  onclick='+'udpf_link_finder1("playback.live-video.net","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi-1</p></div>'+
-'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi-2</p></div>'+
+
+'<div  onclick='+'link_url("http://174.138.19.208/live/KKRvsMI.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi</p></div>'+
+'<div  onclick='+'udpf_link_finder1("mycdn.me/hls","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL</p></div>'+
+'<div  onclick='+'udpf_link_finder1("playback.live-video.net","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL</p></div>'+
+'<div  onclick='+'udpf_link_finder1("cdn.livepeer.com","https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL</p></div>'+
 
 '<!-- horizontal contdiner items ends-->'+
 '</div>'+
