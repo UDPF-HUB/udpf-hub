@@ -5,7 +5,7 @@ http://103.55.144.46/hls/starsports2.m3u8
 #EXTINF:-1 tvg-logo="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1171/661171-h" status="online",Star Sports 3
 http://103.55.144.46/hls/starsports3.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/35/Star_Sports_2.png" status="online",FOX Sports News HD (akamai)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/35/Star_Sports_2.png" status="online",Star sports
 http://iptv.tvfix.org/hls/starsports.m3u8
 
 #EXTINF:-1 tvg-logo="https://aimages.willow.tv/newuiimgs/willowlogo_white_2xIcon.png" status="error",Willow Cricket
