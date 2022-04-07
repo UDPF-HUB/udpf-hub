@@ -1,11 +1,26 @@
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png" status="online",9XM
-https://m-c01-j2apps.s.llnwi.net/live_hd/0306.9XM.in_480p/index.m3u8
+#https://m-c01-j2apps.s.llnwi.net/live_hd/0306.9XM.in_480p/index.m3u8
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9xm/index.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3mkjuTk.png" status="online" group-title="Music", 9X Jalwa
-https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in.m3u8
+#https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in.m3u8
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9xjlwa/index.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RCKpn0U.png" status="online" group-title="Music", 9X Jhakaas
-https://m-c01-j2apps.s.llnwi.net/live/0750.9XJhakaas.in.m3u8
+#https://m-c01-j2apps.s.llnwi.net/live/0750.9XJhakaas.in.m3u8
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9xjhakaas/index.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.9xtashan.in/wp-content/uploads/2016/04/logo.png" status="online" group-title="Music", 9X Tashan
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9xtashan/index.isml/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://exchange4media.gumlet.io/news-photo/101183-ilove.jpg" status="online", Ilove Music
+https://ilove.livebox.co.in/wowinhls/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://desichannel.in/wp-content/uploads/2021/09/desi-channel-logo.png" status="online",Deshi Music
+https://ayedewz3dnl6-hls-live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/playlist.m3u8
+#https://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://qqcdnpictest.mxplay.com/pic/0197.MH1.in/en/1x1/208x208/test_pic1544189994326.jpg" status="online", Mh one mudic
+http://rtmp.smartstream.video:1935/mhonemusic/mhonemusic/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://steelbirdmusic.tv/assets/images/logo1.png" status="online", Steel bird music
+http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://qqcdnpictest.mxplay.com/pic/0389.E24.in/en/1x1/208x208/test_pic1535980264378.jpg" status="online" group-title="Music",E24
 https://m-c02-j2apps.s.llnwi.net/hls/0389.E24.in.m3u8
@@ -26,7 +41,7 @@ https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/musicindia/sangeet.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/g9OTeXV.png" status="online" group-title="Music", Sangeet Bangla
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/g9OTeXV.png" status="online" group-title="Music", Sangeet Bhojpuri
-#https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/e24/index.isml/index.m3u8
+#https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/zeeanmol/index.isml/index.m3u8
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbhojpuri/sangeetbhojpuri.isml/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" status="online",Zoom
