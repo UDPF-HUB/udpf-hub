@@ -42,7 +42,9 @@ https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/musicindia/sangeet.isml/index.m3u8
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sangeet_Bhojpuri.jpg/220px-Sangeet_Bhojpuri.jpg" status="online" group-title="Music", Sangeet Bhojpuri
 #https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/zeeanmol/index.isml/index.m3u8
-https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbhojpuri/sangeetbhojpuri.isml/index.m3u8
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/BBCworld/sangeetbhojpuri.isml/index.m3u8
+#EXTINF:-1 tvg-logo="http://d3jnkp3lrs2hd5.cloudfront.net/images/100x100/fafebda0-1375-4cbb-a136-85a137215aa3.jpg" status="online" group-title="Music", Aray Music
+https://5c75277727cd1.streamlock.net/aaryaamusic/aaryaamusic/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" status="online",Zoom
 https://zoomweblive-lh.akamaihd.net/i/Zoomweb_1@348071/master.m3u8

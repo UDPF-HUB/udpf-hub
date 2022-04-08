@@ -21,6 +21,18 @@ https://abp-i.akamaihd.net/hls/live/765533/abpsanjha/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/aa/abp-majha-in.png" status="online",Abp Majha
 https://m-c02-j2apps.s.llnwi.net/hls/7016.ABPMajha.in.m3u8
 
+#EXTINF:-1 tvg-logo="http://d3jnkp3lrs2hd5.cloudfront.net/images/100x100/e4001f58-9969-43da-9400-9c87d9dd0445.jpg" status="online", Taza News
+http://202.142.127.197/0.m3u8
+#EXTINF:-1 tvg-logo="http://d3jnkp3lrs2hd5.cloudfront.net/images/100x100/3007ff33-a522-445c-b1cd-37711fc3a053.jpg" status="online", Ary News
+https://5c75277727cd1.streamlock.net/aaryaanews/aaryaanews/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ijLDUSX.png" status="online" group-title="Indian Bangla", ABP Ananda
+https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master.m3u8
+#EXTINF:-1 tvg-logo="https://bengali.cdn.zeenews.com/bengali/desktop/logo/24Ghanta_nav.png" status="online" , 24 Ghanta
+https://d3dyw3d1wswml0.cloudfront.net/out/v1/c549619d46ce42b28649a25c12f3ee4b/index_09.m3u8
+#EXTINF:-1 tvg-logo="http://d3jnkp3lrs2hd5.cloudfront.net/images/100x100/6d4d1e2d-dde3-477e-8cb6-3be6c112a468.jpg" status="online" ,Anad Bharat
+http://5dd3981940faa.streamlock.net:1935/abnews/abnews/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/nn/ndtv_india.png" status="online",Ndtv India
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat-stream.com/logo/tv/zz/zee-news-in.svg" status="online",Zee News
@@ -54,6 +66,9 @@ https://tezlive-amd.akamaized.net/hls/live/2016145/tez/tezlive/tez_4/chunklist.m
 https://m-c02-j2apps.s.loris.llnwd.net/hls/1062.NewsNation.in_360p/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.zeebiz.com/html/images/zee-business.png" status="online",Zee Bissnes
+https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8
+
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_24x7.png" status="online",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Profit.png" status="online",NDTV Profit
@@ -69,41 +84,48 @@ https://streaming.ptcplay.com/PTCNEWSINONE/smil:Live.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.wionews.com/images/wion-logo.png" status="online",Wion News
 https://d3neuepii3rf1i.cloudfront.net/v1/manifest/8fe6b38eb3580727128fa5d6759fbc48b3ec1c7e/Zee_News_MT_POC/42ccde12-5d9b-4c78-ab46-fc6ab879b556/3.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30tzHYj.png" status="online" group-title="English News", NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bAzFoQG.png" status="online" group-title="English News", Times Now
+https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
 
 
 
 
+#EXTINF:-1 tvg-logo="https://media.info/i/lf/300/1414681039/1466.png" status="online",RT UK
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.info/i/lf/300/1414681039/1466.png" status="online",RT UK
+https://rt-uk.rttv.com/live/rtuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://rtd.russiatoday.com/s/redesign/pub/img/logo.png" status="online", RT Documentry
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YUFz10j.png" status="online" group-title="English News", Voice of America
+http://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3wWoMzk.png" status="online" group-title="English News", NHK World Japan
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" status="online", BBC World News
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#https://livecdn.fptplay.net/sdb/bbcnew_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AsLYbdw.png" status="online", CNA HD
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jy3Vr9F.png" status="online", CNN HD 
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LiwiLPN.png" status="online", DW NEWS
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#https://livecdn.fptplay.net/hda2/dwenglish_hls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rDkxPUU.png" status="online" group-title="English News", Arirang Korea
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ijLDUSX.png" status="online" group-title="Indian Bangla", ABP Ananda
-https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UyIJDcE.png" status="error" group-title="English News", Sky News
+https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera FHD
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera HD
 https://live-hls-web-aje.getaj.net/AJE/02.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera SD
 https://live-hls-web-aje.getaj.net/AJE/03.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rDkxPUU.png" status="online" group-title="English News", Arirang Korea
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" status="online" group-title="English News", BBC World News
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" status="online" group-title="English News", BBC World News.
-https://livecdn.fptplay.net/sdb/bbcnew_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AsLYbdw.png" status="online" group-title="English News", CNA HD
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Jy3Vr9F.png" status="online" group-title="English News", CNN HD 
-https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LiwiLPN.png" status="online" group-title="English News", Deutsche Welle
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LiwiLPN.png" status="online" group-title="English News",DW English
-https://livecdn.fptplay.net/hda2/dwenglish_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30tzHYj.png" status="online" group-title="English News", NDTV 24x7
-https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3wWoMzk.png" status="online" group-title="English News", NHK World Japan
-https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UyIJDcE.png" status="error" group-title="English News", Sky News
-https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bAzFoQG.png" status="online" group-title="English News", Times Now
-https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/YUFz10j.png" status="online" group-title="English News", Voice of America
-http://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8
