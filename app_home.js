@@ -79,7 +79,7 @@ function web_uctnew_com(i){
 	   }
 function link_url(i){
     document.getElementById("ext_player_url").src =i ;
- //ext.main.plyr_init();
+ ext.main.plyr_init();
 	   }
 
 function link_url1(i){
@@ -101,8 +101,10 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
 // English IPL
+'<div  onclick='+'link_url1("http://iptv.tvmalaysia.cc:80/799912/799912/6717")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/ipl-english.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("http://iptv.tvmalaysia.cc:80/799912/799912/6717")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
+'<div  onclick='+'link_url1("http://iptv.tvmalaysia.cc:80/799912/799912/6619")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
+'<div  onclick='+'link_url("http://103.135.133.21/hls/stream3.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 '<div  onclick='+'link_url("https://sami-rian.tk/Join-us-on-telegram_@AllLiveSportsLinks/IPL_English.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 '<div  onclick='+'udpf_link_finder1("mycdn.me","https://www.crazyboy.live/2022/03/indusind-bank.html")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 
