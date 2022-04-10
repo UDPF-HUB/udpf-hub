@@ -68,14 +68,9 @@ document.getElementById("ext_player_url").src =url;
 	//alert("hi1");
 	
 }
-function web_uctnew_com(i){
-       function enableVideo(a){return a.substring(0,53)+a.substring(54,a.length)}
-		//var ea ="m1.quest123.top";
-		//var hlsUrl = "https://" + ea + ":8088/live/webcricn0"+i+"/playlist.m3u8vidictid=vidictid=190866504192&id=6" ;
-		 // hlsUrl = hlsUrl + enableVideo("7d67292fa161020055e410790efd03a03803c0e9a2f8912ce8fdch0f3c5842333");
-	         var  hlsUrl = "https://t06.quest123.top:8088/mobile/stream"+i+"_240p/playlist.m3u8?id=6&pk=b1b5458445d90c5704db14e7646402bbf4b78c7254cfacc4e878c2f1ec9eebf8";
-	document.getElementById("ext_player_url").src = hlsUrl ;
- ext.main.plyr_init_mod_jionews();
+function iptv_player(i){
+var it='<video controls src="'+i+'" type="video/mp4" ></video>';
+	udpf.echo(it,"id","app-video-player");
 	   }
 function link_url(i){
     document.getElementById("ext_player_url").src =i ;
@@ -102,7 +97,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<div class="mycss-horizontal-container" style="width:100%;">'+
 // English IPL
 '<div  onclick='+'udpf_link_finder1("m3u8","https://t-stream.techyshikari.in/2022/03/ipl-english.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("http://103.135.133.21/hls/stream3.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
+'<div  onclick='+'iptv_player("http://ricoootv.xyz:25461/ygshdhshhhudhhd/ygshdhshhhudhhd/148")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">test1</p></div>'+
 '<div  onclick='+'link_url("https://sami-rian.tk/Join-us-on-telegram_@AllLiveSportsLinks/IPL_English.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 '<div  onclick='+'udpf_link_finder1("mycdn.me","https://www.crazyboy.live/2022/03/aviva-life-insurance-company.html")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 
