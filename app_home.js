@@ -1,3 +1,59 @@
+ext.main.plyr_init_mod_jionews=function(){
+     	if(udpf.isset(window.hls))
+ window.hls.detachMedia();
+   const e = document.getElementById("ext_player_hls"),
+    v= e.getElementsByTagName("source")[0].src,
+
+    o = {};
+  if(Hls.isSupported()) {
+  	var uu= new URL(v);
+	 var token=uu.search;
+	    const  n=url= (v).replace(token,"");
+    var config = {
+		
+     maxMaxBufferLength: 100,
+  xhrSetup: function(xhr, url) {
+	 url = url + token ;
+     xhr.open('GET', url, true);
+	 //header neaded for only jio api working tested
+xhr.setRequestHeader('Accept' , ' */*');
+xhr.setRequestHeader('Accept-Encoding' , 'gzip, deflate, br');
+xhr.setRequestHeader('Accept-Language','en-US,en;q=0.9');
+//xhr.setRequestHeader('Host' , ' tv.media.jio.com');
+xhr.setRequestHeader('Connection' , ' keep-alive');
+xhr.setRequestHeader('Origin','https://www.hotstar.com/');
+xhr.setRequestHeader('Referer','https://www.hotstar.com/');
+xhr.setRequestHeader("Cookie", "hs_uid=7abb02fb-427c-49d8-85e2-f0dab835528e; _gcl_au=1.1.928997546.1648449143; _gid=GA1.2.1712776197.1649560167; _clck=rx3blk|1|f0i|0; ajs_group_id=null; ajs_user_id="32dd1c023ba8493c8f64c2e34b938b09"; ajs_anonymous_id="b596d8cd-1397-4fe1-b68b-cfe0352a2b1d"; _ga=GA1.2.790039680.1648449145; _uetsid=a1844240b87b11ecb2ec5348c8f30318; _uetvid=d4b635c0ae6011ec809949a1843510cb; _clsk=16fu6rt|1649583899117|9|0|d.clarity.ms/collect; _ga_QV5FD29XJC=GS1.1.1649583435.16.1.1649583982.60; hdntl=exp=1649670394~acl=*ipl2022*~id=398744103b7c2aaf17b7b8d9b0d0c1cd~data=ip=aJ6vCdzIRPZnvvjes033FQ-userid=kzk5JqhGGF7g9aYcHnC6fmW8idiF5H4Iif60dcnTPe9b-did=82d9Dx9Bl3dCUvTPdGUlTXK8Q4ZgfwpaUZU0DYBfYTbqVTmkIa3Ck6q-cc=in-~hmac=d24c52f5180685c28d2bba7c4d9c381af8a248394eb7e6dbc099fded1494b2f0"); 
+xhr.setRequestHeader('User-Agent' , ' Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43');
+ }
+    };
+
+    const t = new Hls(config);
+
+    t.loadSource(n), t.on(Hls.Events.MANIFEST_PARSED, function(n, l) {
+      const s = t.levels.map(e => e.height);
+      o.quality = {
+        default: s[0],
+        options: s,
+        forced: !0,
+        onChange: e => (function(e) {
+          window.hls.levels.forEach((n, o) => {
+            n.height === e && (window.hls.currentLevel = o)
+          })
+        })(e)
+      };
+      new Plyr(e, o)
+    }), t.attachMedia(e), window.hls = t
+  } else {
+    new Plyr(e, o)
+  }
+};
+
+
+
+
+
+
 function udpf_link_finder1(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
@@ -63,7 +119,7 @@ var op=udpf.js_browser(url,"post", data,header);
 var url=udpf.json_decode(op.trim()).data.playback_sets[0].playback_url ;
 	
 document.getElementById("ext_player_url").src =url;
- ext.main.plyr_init_mod_jionews();
+ ext.main.plyr_init_mod_hotstar();
 	//alert("hi1");
 	
 }
