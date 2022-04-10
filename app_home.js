@@ -69,8 +69,7 @@ document.getElementById("ext_player_url").src =url;
 	
 }
 function iptv_player(i){
-var it='<video controls src="'+i+'" type="video/mp4" ></video>';
-	udpf.echo(it,"id","app-video-player");
+Website2APK.openExternal("intent:"+i);
 	   }
 function link_url(i){
     document.getElementById("ext_player_url").src =i ;
