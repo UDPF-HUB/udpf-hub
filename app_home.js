@@ -1,4 +1,4 @@
-ext.main.plyr_init_mod_jionews=function(){
+ext.main.plyr_init_mod_hotstar=function(){
      	if(udpf.isset(window.hls))
  window.hls.detachMedia();
    const e = document.getElementById("ext_player_hls"),
