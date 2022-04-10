@@ -115,7 +115,7 @@ var op=udpf.js_browser(url,"post", data,header);
 var url=udpf.json_decode(op.trim()).data.playback_sets[0].playback_url ;
 	
 document.getElementById("ext_player_url").src =url;
- ext.main.plyr_init_mod_hotstar();
+ ext.main.plyr_init();
 	//alert("hi1");
 	
 }
