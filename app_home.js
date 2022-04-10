@@ -17,7 +17,7 @@ ext.main.plyr_init_mod_hotstar=function(){
      xhr.open('GET', url, true);
 	 //header neaded for only jio api working tested
 xhr.setRequestHeader('host' , uu.host);
-xhr.setRequestHeader('origin','https://www.hotstar.com');
+xhr.setRequestHeader('origin',uu.origin);
 xhr.setRequestHeader('referer','https://www.hotstar.com/');
 xhr.setRequestHeader('hotstarauth' , 'hotstarauth: st=1649618225~exp=1649624225~acl=/*~hmac=3272d1d8c50a48d31ee5c4945fa8e75d6651280aac04e0a32a6412683a5e96eb');
 xhr.setRequestHeader('x-country-code' , 'in');
