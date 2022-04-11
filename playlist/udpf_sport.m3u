@@ -55,7 +55,7 @@ https://pubads.g.doubleclick.net/ssai/event/hInaEKUJSziZAGv9boOdjg/master.m3u8
 https://admdn1ta.cdn.mgmlcdn.com/adsports1/smil:adsports1.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6b210.png" status="online",Ad Sports 2
 https://admdn5ta.cdn.mgmlcdn.com/adsports2/smil:adsports2.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6bec3.png" ,Ad Sports 3
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/5e3ad6bec3.png" status="online",Ad Sports 3
 https://admdn3ta.cdn.mgmlcdn.com/adsports3/smil:adsports3.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/164/6214d50c63.png" status="online",Ad Sports 4
 https://admdn4.cdn.mgmlcdn.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
@@ -79,11 +79,11 @@ http://144.217.98.14:80/ESPN/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://aimages.willow.tv/newuiimgs/willowlogo_white_2xIcon.png" status="error",Willow Cricket
 https://16live00.akamaized.net/WILLOW/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_1HD_2018_WHITE_FULL_RGB.svg" status="error",
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_1HD_2018_WHITE_FULL_RGB.svg" status="error", fh
 https://16live00.akamaized.net/BTSPORTS1/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_2HD_2018_WHITE_FULL_RGB.svg" status="online",
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_2HD_2018_WHITE_FULL_RGB.svg" status="online",fh
 https://16live00.akamaized.net/BTSPORTS2/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_3HD_2018_WHITE_FULL_RGB.svg" status="online",
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_3HD_2018_WHITE_FULL_RGB.svg" status="online",xjt
 https://16live00.akamaized.net/BTSPORTS3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d3/BeINSports1.png/revision/latest/scale-to-width-down/78" status="online" ,BeIn Sport Eng 1
@@ -105,7 +105,6 @@ http://213.13.23.132/shls/LIVE%24Eleven_Sports_4_HD.CVL/index.m3u8?device=ANDROI
 http://213.13.23.132/shls/LIVE%24Eleven_Sports_5_HD.CVL/index.m3u8?device=ANDROID_Live&start=LIVE&end=END
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Logo_Eleven_Sports_2020.png/220px-Logo_Eleven_Sports_2020.png" status="online",ELEVEN SPORT 6
 http://213.13.23.132/shls/LIVE%24Eleven_Sports_6_HD.CVL/index.m3u8?device=ANDROID_Live&start=LIVE&end=END
-
 
 #EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="error", EVENT 12
 http://init.cheches.info:80/hls/112.m3u8
@@ -132,9 +131,9 @@ http://init.cheches.info:80/hls/102.m3u8
 #EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="error", EVENT 01
 http://init.cheches.info:80/hls/101.m3u8
 
-EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/197_144.png" status="error",Astro Cricket
+#EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/197_144.png" status="error",Astro Cricket
 hgdgh
-EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png" status="error",Astro Super Sport
+#EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png" status="error",Astro Super Sport
 fdgdg
 EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png" status="error",Astro Super Sport 2
 http://203.154.243.89:21202/nakhon
@@ -142,5 +141,3 @@ http://203.154.243.89:21202/nakhon
 http://203.154.243.89:21203/nakhon
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/241_144.png" status="error",Astro Super Sport 4
 http://203.154.243.89:21204/nakhon
-
-
