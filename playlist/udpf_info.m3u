@@ -1,33 +1,40 @@
+#EXTINF:-1 tvg-logo="https://rtd.russiatoday.com/s/redesign/pub/img/logo.png" status="online", RT Documentry
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/d0GCm0e.png" status="error" group-title="English Documentry", BBC Earth Sony HD
+#http://125.209.88.166:45793/BRN/BBCEarthHD.stream/playlist.m3u8
+https://pubads.g.doubleclick.net/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KLBorkM.png" status="online" group-title="English Documentry", Travel XP SD
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ti0gJR2.png" status="online" group-title="English Documentry", Animal Planet HD Hindi
 https://livecdn.fptplay.net/hda2/animalplanet_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/d0GCm0e.png" status="error" group-title="English Documentry", BBC Earth Sony HD
-http://125.209.88.166:45793/BRN/BBCEarthHD.stream/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8GG7Ny9.png" status="online" group-title="English Documentry", Discovery English
 https://livecdn.fptplay.net/hda2/discovery_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8GG7Ny9.png" status="error" group-title="English Documentry", Discovery English HD
-http://58.65.171.202:8000/play/4321/index.m3u8
+#http://58.65.171.202:8000/play/4321/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XBz4I65.png" status="error" group-title="English Documentry", Discovery Science English
 http://103.55.144.46/hls/dis-science.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" status="online" group-title="English Documentry", NASA TV HD
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" status="online" group-title="English Documentry", National Geographic HD
-https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" status="error" group-title="English Documentry", National Geographic Bangla HD
-http://103.170.140.8/hls/ngohd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" status="online" group-title="English Documentry", National Geographic Abu Dhabi
+#https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist.m3u8
+#http://103.170.140.8/hls/ngohd.m3u8
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" status="error" group-title="English Documentry", National Geographic Abu Dhabi 2
-http://103.159.4.38:5868/ENTEMENT-4/tracks-v1a1/mono.m3u8
+#http://103.159.4.38:5868/ENTEMENT-4/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rsgmVuw.png" status="error" group-title="English Documentry", Nat Geo People
 http://58.65.171.202:8000/play/10503/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MCyL9wX.png" status="online" group-title="English Documentry", National Geographic Wild SD
-http://iptv.prosto.tv:7000/ch83/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MCyL9wX.png" status="online" group-title="English Documentry", National Geographic Wild SD.
+#http://iptv.prosto.tv:7000/ch83/video.m3u8
 https://livecdn.fptplay.net/hda3/natgeowild_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MCyL9wX.png" status="online" group-title="English Documentry", National Geographic Wild HD
-https://sc.id-tv.kz/NatGeoWildHD.m3u8
+#https://sc.id-tv.kz/NatGeoWildHD.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ELjuMyU.png" status="error" group-title="English Documentry", TLC English
 http://103.55.144.46/hls/tlc.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KLBorkM.png" status="online" group-title="English Documentry", Travel XP SD
-https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+

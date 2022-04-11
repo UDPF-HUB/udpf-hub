@@ -80,9 +80,9 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/up2mMgD.png" status="online" group-title="Music", MTV WMA HD
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MaNNHCm.png" status="error" group-title="Music", MTV Beats HD+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MaNNHCm.png" status="online" group-title="Music", MTV Beats HD+
 http://144.217.70.181:9587/hin2/MTVBEATSHD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sGNdnMT.png" status="error" group-title="Music", MTV HD+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sGNdnMT.png" status="online" group-title="Music", MTV HD+
 http://144.217.70.181:9587/hin2/MTVINDIA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PmXZNaK.png" status="error" group-title="Music", RTV Music 
 http://103.43.148.202:1931/iptv/rtvmusic.stream/chunks.m3u8
