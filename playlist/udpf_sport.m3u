@@ -114,7 +114,7 @@ http://213.13.23.132/shls/LIVE%24Eleven_Sports_6_HD.CVL/index.m3u8?device=ANDROI
 
 #EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="error", EVENT 12
 http://init.cheches.info:80/hls/112.m3u8
-#EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="errror", EVENT 11
+#EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="error", EVENT 11
 http://init.cheches.info:80/hls/111.m3u8
 #EXTINF:-1 tvg-logo="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" status="error", EVENT 10
 http://init.cheches.info:80/hls/110.m3u8
