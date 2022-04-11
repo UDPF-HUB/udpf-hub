@@ -1,11 +1,13 @@
 #EXTINF:-1 tvg-logo="https://qqcdnpictest.mxplay.com/pic/0179.DDSports.in/en/1x1/208x208/test_pic1552392523405.jpg" status="online", DD Sports
 https://m-c25-j2apps.s.llnwi.net/hls/0179.DDSports.in.m3u8
+#EXTINF:-1 tvg-logo="https://qqcdnpictest.mxplay.com/pic/0179.DDSports.in/en/1x1/208x208/test_pic1552392523405.jpg" status="error", DD Sports
 http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.ptvsportstv.com/wp-content/uploads/2021/12/ptv-sports-live.png" status="online",PTV Sports 
 http://watch.emasti.pk/stream/ptvsports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://www.ptvsportstv.com/wp-content/uploads/2021/12/ptv-sports-live.png" status="online",PTV Sports (BDCable)
 http://jupiter.bdcabletv.com/PTV_Sports/video.m3u8
+#EXTINF:-1 tvg-logo="https://www.ptvsportstv.com/wp-content/uploads/2021/12/ptv-sports-live.png" status="error",PTV Sports 
 https://2nbyj2bbd53k-hls-live.5centscdn.com/PTV/Sports.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://a-sports.tv/wp-content/uploads/2021/10/A-sportshdLogo.png" status="online",A Sports HD 
@@ -18,6 +20,7 @@ https://rcpems02.jio.ril.com/live.kube.cdn.ril.com/bpk-tv/TEST3_HD_MOB/output01/
 
 #EXTINF:-1 tvg-logo="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1167/661167-h" status="error",Star Sports 1 HD 
 http://103.55.144.46/hls/stersports1hd.m3u8
+#EXTINF:-1 tvg-logo="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1167/661167-h" status="error",Star Sports 1 HD 
 http://103.135.133.21/hls/stream3.m3u8
 #EXTINF:-1 tvg-logo="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/1168/661168-h" status="error",Star Sports 2 
 http://103.55.144.46/hls/starsports2.m3u8
@@ -26,15 +29,19 @@ http://103.55.144.46/hls/starsports3.m3u8
 
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png" status="online",Six_HD
 https://pubads.g.doubleclick.net:443/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png" status="error",Six_HD
 http://103.55.144.46/hls/sonysix.m3u8
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" status="online",TEN 1 HD
 https://pubads.g.doubleclick.net:443/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" status="error",TEN 1 HD
 http://103.55.144.46/hls/sonyten1.m3u8
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" status="online",Ten2_HD
 https://pubads.g.doubleclick.net:443/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" status="error",Ten2_HD
 http://103.55.144.46/hls/sonyten2.m3u8
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" status="online",Ten3_HD
 https://pubads.g.doubleclick.net:443/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" status="error",Ten3_HD
 http://103.55.144.46/hls/sonyten3.m3u8
 #EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png" status="online",SONY TEN 4 HD
 https://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8
@@ -78,11 +85,11 @@ http://144.217.98.14:80/ESPN/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://aimages.willow.tv/newuiimgs/willowlogo_white_2xIcon.png" status="error",Willow Cricket
 https://16live00.akamaized.net/WILLOW/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_1HD_2018_WHITE_FULL_RGB.svg" status="error", fh
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_1HD_2018_WHITE_FULL_RGB.svg" status="error", BT Sport 1
 https://16live00.akamaized.net/BTSPORTS1/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_2HD_2018_WHITE_FULL_RGB.svg" status="online",fh
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_2HD_2018_WHITE_FULL_RGB.svg" status="online",BT Sport 2
 https://16live00.akamaized.net/BTSPORTS2/index.m3u8
-#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_3HD_2018_WHITE_FULL_RGB.svg" status="online",xjt
+#EXTINF:-1 tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/BTSPORT_3HD_2018_WHITE_FULL_RGB.svg" status="online",BT Sport 3
 https://16live00.akamaized.net/BTSPORTS3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d3/BeINSports1.png/revision/latest/scale-to-width-down/78" status="online" ,BeIn Sport Eng 1
@@ -134,7 +141,7 @@ http://init.cheches.info:80/hls/101.m3u8
 hgdgh
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png" status="error",Astro Super Sport
 fdgdg
-EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png" status="error",Astro Super Sport 2
+#EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png" status="error",Astro Super Sport 2
 http://203.154.243.89:21202/nakhon
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/164_144.png" status="error",Astro Super Sport 3
 http://203.154.243.89:21203/nakhon
