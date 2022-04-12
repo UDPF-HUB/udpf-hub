@@ -59,8 +59,8 @@ https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png" status="online",Rajya Sabha TV
 https://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png" status="online",Lok Sabha TV
-#https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8?sd=10&rebase=on
-https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8
+https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8?sd=10&rebase=on
+#https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DD_News.png" status="online",DD NEWS
 #http://144.217.70.181:9587/hin2/DDNEWS/index.m3u8
 https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8
@@ -74,6 +74,7 @@ https://tezlive-amd.akamaized.net/hls/live/2016145/tez/tezlive/tez_4/chunklist.m
 
 #EXTINF:-1 tvg-logo="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/News_Nation.png" status="online",News Nation
 https://m-c02-j2apps.s.loris.llnwd.net/hls/1062.NewsNation.in_360p/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.zeebiz.com/html/images/zee-business.png" status="online",Zee Bissnes
 https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8
@@ -121,9 +122,6 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rDkxPUU.png" status="online" group-title="English News", Arirang Korea
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-
-
-
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UyIJDcE.png" status="error" group-title="English News", Sky News
 https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
