@@ -126,8 +126,5 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/pla
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UyIJDcE.png" status="error" group-title="English News", Sky News
 https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera FHD
-https://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera HD
-https://live-hls-web-aje.getaj.net/AJE/02.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dQrdh2F.png" status="error" group-title="English News", Al Jazeera SD
-https://live-hls-web-aje.getaj.net/AJE/03.m3u8
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
