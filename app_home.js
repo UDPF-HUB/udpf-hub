@@ -137,7 +137,7 @@ Website2APK.openExternal(i) ;
 	   }
 
 function afghanlivetvchannels(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
-var op=udpf.js_browser(proxy_url(url)).trim();	
+var op=udpf.js_browser(url).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
 //return url;
