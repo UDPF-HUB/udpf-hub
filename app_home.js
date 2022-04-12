@@ -136,6 +136,26 @@ function link_url1(i){
 Website2APK.openExternal(i) ;
 	   }
 
+function afghanlivetvchannels(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
+var op=udpf.js_browser(proxy_url(url)).trim();	
+var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
+var url = op.match(urlRegex);
+//return url;
+var __FOUND ="";
+for(var i=0; i< url.length; i++) {
+	var ttext=(url[i]).toString() ;
+	//console.log(i+ttext)
+	if( ttext.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
+		__FOUND = url[i];
+		break;
+	}
+}
+
+//return __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
+document.getElementById("ext_player_url").src = __FOUND.replace("embed.html","index.m3u8");
+ext.main.plyr_init();
+ }
+
 
 var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white">Sony LIV Channels</div>'+
 '<!-- horizontal contdiner start--->'+
@@ -151,10 +171,10 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
 // English IPL
-'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1101/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1102/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL ENGLISH (USE VLC PLAYER ) </p></div>'+
-'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1100/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
-//'<div  onclick='+'udpf_link_finder1("mycdn.me","https://www.crazyboy.live/2022/03/aviva-life-insurance-company.html")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
+//'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1101/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
+//'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1102/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL ENGLISH (USE VLC PLAYER ) </p></div>'+
+//'<div  onclick='+'link_url("https://cdn1-sports.husheng253.com/live/H1100/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
+'<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/ariana-tv-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English</p></div>'+
 
 // Hindi IPL
 '<div  onclick='+'hotstar_url("1540014983")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL Hindi</p></div>'+
