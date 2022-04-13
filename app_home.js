@@ -1,9 +1,9 @@
 // Image link On error
-const image_onerror= new ResizeObserver(function(entries) {
+document.querySelector("#app-main").contentchanged(function(entries) {
 	$("img").error(function(){ console.log("Image Broken");this.src='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png';});		
                            });
 // Image link On error
-image_onerror.observe(document.querySelector("#app-main"));
+//image_onerror.observe(document.querySelector("#app-main"));
 
 
 ext.main.plyr_init_mod_hotstar=function(){
