@@ -1,7 +1,7 @@
 // Image link On error
-$("#app-main").contentchanged(function(entries) {
-	$("img").error(function(){ console.log("Image Broken");this.src='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png';});		
-                           });
+//$("#app-main").contentchanged(function(entries) {
+	//$("img").error(function(){ console.log("Image Broken");this.src='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png';});		
+            //               });
 // Image link On error
 //image_onerror.observe(document.querySelector("#app-main"));
 
