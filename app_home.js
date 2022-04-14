@@ -1,8 +1,8 @@
 // Image link On error
 $('#app-main').on('DOMSubtreeModified', function(entries) {
-	for(var i=0; i<$("img").length;i++){
-	      $("img")[i].setAttribute("loading","lazy");
-	}
+	//    for(var i=0; i<$("img").length;i++){
+	      //  $("img")[i].setAttribute("loading","lazy");
+	// }
 	$("img").error(function(){ console.log("Image Broken");this.src='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png';});		
                         
 });
