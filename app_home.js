@@ -191,7 +191,13 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '</div>'+
 '<!-- horizontal contdiner end -->';
 
-
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">News Paper</div>'+
+'<!-- horizontal contdiner items start--->'+
+'<!-- horizontal contdiner start--->'+
+'<div class="mycss-horizontal-container" style="width:100%;">'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/telegraph-newspaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://yojanapdf.com/wp-content/uploads/The-Telegraph.jpg" alt="" width="100%" height="100px"><p class="w3-center ">TeleGraph</p></div>'+
+'</div>'+
+'<!-- horizontal contdiner end -->';
 
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Afganistan Tv</div>'+
 '<!-- horizontal contdiner items start--->'+
