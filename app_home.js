@@ -191,7 +191,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '</div>'+
 '<!-- horizontal contdiner end -->';
 
-app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">News Paper</div>'+
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">News Paper  ( Daily Updated @ 07:00 AM)</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
