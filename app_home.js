@@ -211,6 +211,18 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 	'</div>'+
 '<!-- horizontal contdiner end -->'
 
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Magzine</div>'+
+'<!-- horizontal contdiner items start--->'+
+'<!-- horizontal contdiner start--->'+
+'<div class="mycss-horizontal-container" style="width:100%;">'+
+'<div  onclick='+' udpf_link_finder2("ts/pdf/yojana-e","https://chahalacademy.com/free-downloads-yojana")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://chahalacademy.com/assets/current/yojana.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Yojana Mag</p></div>'+
+'<div  onclick='+' udpf_link_finder2("ts/pdf/yojana-hi","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://chahalacademy.com/assets/current/yojana.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Yojana Hindi</p></div>'+
+
+
+	'</div>'+
+'<!-- horizontal contdiner end -->'
+
+
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Afganistan Tv</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
