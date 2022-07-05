@@ -175,8 +175,7 @@ var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gra
 '</div>'+
 '<!-- horizontal contdiner end -->';
 
-
-app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">News Paper  ( Daily Updated @ 07:00 AM)</div>'+
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> News Paper  ( Daily Updated @ 07:00 AM)</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
@@ -188,12 +187,24 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 	'</div>'+
 '<!-- horizontal contdiner end -->'
 
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">समाचार पत्र (दैनिक अद्यतन @ 07:00 पूर्वाह्न) </div>'+
+'<!-- horizontal contdiner items start--->'+
+'<!-- horizontal contdiner start--->'+
+'<div class="mycss-horizontal-container" style="width:100%;">'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/dainik-jagran-newspaper-download-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://yojanapdf.com/wp-content/uploads/The-Telegraph.jpg" alt="" width="100%" height="100px"><p class="w3-center ">दैनिक जागरण</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/amar-ujala-news-paper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://yojanapdf.com/wp-content/uploads/Times-Of-India-Daily-E-Newspaper-PDF-1-1.jpg" alt="" width="100%" height="100px"><p class="w3-center ">अमर उजाल</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/prabhat-khabar-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://logos-download.com/wp-content/uploads/2021/01/The_Economic_Times_Logo-700x700.png" alt="" width="100%" height="100px"><p class="w3-center ">प्रभात खबर</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/dainik-bhaskar-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="http://onlineepaper.asianage.com/images/AA-logo.png" alt="" width="100%" height="100px"><p class="w3-center ">दैनिक भास्कर</p></div>'+
+
+	'</div>'+
+'<!-- horizontal contdiner end -->'
+
 
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Employment News weakly (SAT- FIR)</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="http://employmentnews.gov.in/newemp/images/EN1.jpg" alt="" width="100%" height="100px"><p class="w3-center ">English</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">English</p></div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Hindi</p></div>'+
 
 
