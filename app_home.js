@@ -89,18 +89,20 @@ document.getElementById("ext_player_url").src = __FOUND;
 ext.main.plyr_init_mod_jionews();
  }
  
- function udpf_link_finder2(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts" ){
+ function udpf_link_finder2(filter, url="https://telemetr.io/en/channels/1571630354-cricket_live_link_updates/posts",ind=1){
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
 //return url;
 var __FOUND ="";
-for(var i=0; i< url.length; i++) {
+for(var i=0,y=1; i< url.length; i++) {
 	var ttext=(url[i]).toString() ;
 	//console.log(i+ttext)
 	if( ttext.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
-		__FOUND = url[i];
+		__FOUND = url[i]; 
+		if(ind==y)
 		break;
+		y++;
 	}
 }
 
@@ -151,18 +153,14 @@ function afghanlivetvchannels(filter, url="https://telemetr.io/en/channels/15716
 var op=udpf.js_browser(url).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
-//return url;
 var __FOUND ="";
 for(var i=0; i< url.length; i++) {
 	var ttext=(url[i]).toString() ;
-	//console.log(i+ttext)
 	if( ttext.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
 		__FOUND = url[i];
 		break;
 	}
 }
-
-//return __FOUND.replace("_lowest","").replace("_low","").replace("_medium","").replace("_high","");
 document.getElementById("ext_player_url").src = __FOUND.replace("embed.html","index.m3u8");
 ext.main.plyr_init();
  }
@@ -177,19 +175,6 @@ var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gra
 '</div>'+
 '<!-- horizontal contdiner end -->';
 
-app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white"> IPL LIVE 2022 (Most Of Links Will Active On Game start) </div>'+
-'<!-- horizontal contdiner items start--->'+
-'<!-- horizontal contdiner start--->'+
-'<div class="mycss-horizontal-container" style="width:100%;">'+
-// English IPL
-//'<div  onclick='+'afghanlivetvchannels(".m3u8","https://player.vimeo.com/video/698472968")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("https://3ty8.short.gy/IPL_ENGLISH1.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("http://178.128.212.189:8081/TPL3/SLOW/playlist.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL English </p></div>'+
-'<div  onclick='+'link_url("http://nayeemparvez-ensp.ddns.net/STARSP_1HD/index.m3u8")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://jiotvweb.cdn.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD_1.png" alt="" width="100%" height="100px"><p class="w3-center ">IPL ENGLISH</p></div>'+
-'<!-- horizontal contdiner items ends-->'+
-
-'</div>'+
-'<!-- horizontal contdiner end -->';
 
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">News Paper  ( Daily Updated @ 07:00 AM)</div>'+
 '<!-- horizontal contdiner items start--->'+
@@ -199,10 +184,23 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/times-of-india-epaper-pdf-download-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://yojanapdf.com/wp-content/uploads/Times-Of-India-Daily-E-Newspaper-PDF-1-1.jpg" alt="" width="100%" height="100px"><p class="w3-center ">TOI</p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/economic-times-newspaper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://yojanapdf.com/wp-content/uploads/The-Hindu-Newspaper.jpg.webp" alt="" width="100%" height="100px"><p class="w3-center ">Economics</p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc","https://dailyepaper.in/the-asian-age-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="" alt="" width="100%" height="100px"><p class="w3-center ">Asia Age</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Employment News English</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Employment News Hindi</p></div>'+
+
+	'</div>'+
+'<!-- horizontal contdiner end -->'
+
+
+app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Employment News weakly (SAT- FIR)</div>'+
+'<!-- horizontal contdiner items start--->'+
+'<!-- horizontal contdiner start--->'+
+'<div class="mycss-horizontal-container" style="width:100%;">'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Employment News English</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Employment News Hindi</p></div>'+
 
 
 	'</div>'+
-'<!-- horizontal contdiner end -->';
+'<!-- horizontal contdiner end -->'
 
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Afganistan Tv</div>'+
 '<!-- horizontal contdiner items start--->'+
@@ -211,8 +209,7 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 '<div  onclick='+'afghanlivetvchannels("Melisport/embed.html","http://www.afghanlive.net/sport-channel-afghan-irib-varzesh-live-tv/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">Meli sport</p></div>'+'<!-- horizontal contdiner items ends-->'+
 '<div  onclick='+'afghanlivetvchannels("iribv/embed.html","http://www.afghanlive.net/sport-channel-afghan-irib-varzesh-live-tv/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">iribv sport</p></div>'+
 '<div  onclick='+'afghanlivetvchannels("irib3/embed.html","http://www.afghanlive.net/sport-channel-afghan-irib-varzesh-live-tv/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">irib3 sport</p></div>'+
-	
-         '<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/rta-sports-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">RTA Sports Live</p></div>'+
+'<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/rta-sports-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">RTA Sports Live</p></div>'+
 	'<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/tolo-tv-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">Tolo TV live</p></div>'+
 	'<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/lemar-tv-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">lemar TV Live</p></div>'+
 	'<div  onclick='+'afghanlivetvchannels("embed.html","https://afghanlivetvchannels.com/hewad-tv-live/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt="" width="100%" height="100px"><p class="w3-center ">Hewad TV live</p></div>'+
