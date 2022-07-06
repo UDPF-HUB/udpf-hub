@@ -55,7 +55,7 @@ Website2APK.openExternal(__FOUND);
 //ext.main.plyr_init_mod_jionews();
  }
 
-var app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> News Paper  ( Daily Updated @ 07:00 AM)</div>'+
+var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> News Paper  ( Daily Updated @ 07:00 AM)</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
