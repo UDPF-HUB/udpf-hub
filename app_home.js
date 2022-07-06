@@ -226,9 +226,9 @@ app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-w
 
 app_home+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Current Affairs</div>'+
 '<!-- horizontal contdiner items start--->'+
+'<div class="mycss-horizontal-container" style="width:100%;">'+
 '<!-- horizontal contdiner start--->'+
-
-'<div  onclick='+' udpf_link_finder2("file/d/","https://sscstudy.com/weekly-current-affairs-pdf-download/?amp")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://sscstudy.com/wp-content/uploads/2020/08/download-pdf-button-300x88.png" alt="" width="100%" height="100px"><p class="w3-center ">Weakly</p></div>'+
+ '<div  onclick='+' udpf_link_finder2("file/d/","https://sscstudy.com/weekly-current-affairs-pdf-download/?amp")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://sscstudy.com/wp-content/uploads/2020/08/download-pdf-button-300x88.png" alt="" width="100%" height="100px"><p class="w3-center ">Weakly</p></div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://sscstudy.com/current-affairs-2022-pdf-download/?amp")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://gknow.in/wp-content/uploads/2022/07/english-june-791x1024.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Monthly</p></div>'+
 
 	'</div>'+
