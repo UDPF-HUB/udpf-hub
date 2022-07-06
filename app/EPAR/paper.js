@@ -113,4 +113,3 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 
 	'</div>'+
 '<!-- horizontal contdiner end -->';
-Footer
