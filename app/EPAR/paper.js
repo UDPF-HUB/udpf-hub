@@ -36,19 +36,19 @@ var app_paper='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gr
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/times-of-india-epaper-pdf-download-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/economic-times-newspaper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/financial-express-newspaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/deccan-chronicle-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-asian-age-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/statesman-newspaper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-tribune-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/telegraph-newspaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/pioneer-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
-'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-free-press-journal-epaper-download/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/times-of-india-epaper-pdf-download-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">TOI</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/economic-times-newspaper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Economics Times</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/financial-express-newspaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Financial Express</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/deccan-chronicle-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Deccam Chro..</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-asian-age-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">The Asia Age</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/statesman-newspaper-today/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Statesman</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-tribune-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">The Tribune</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/telegraph-newspaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Telegram</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/pioneer-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center ">Pionner</p></div>'+
+'<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/the-free-press-journal-epaper-download/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy">The Free Press....<p class="w3-center "></p></div>'+
 
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Hindi NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
@@ -68,7 +68,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/dainik-navajyoti-epaper/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Bangali NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -89,7 +89,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/divya-bhaskar-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Kannada NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -109,7 +109,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/mathrubhumi-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Marthi NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -123,7 +123,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/lokmat-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/loksatta-newspaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 '</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> OdiyaNewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -133,7 +133,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/dharitri-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Punjabi NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -142,7 +142,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/ajit-punjabi-epaper-pdf-free-download/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/punjabi-tribune-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Tamil NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
@@ -152,7 +152,8 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/dinamalar-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/daily-thanthi-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 	'</div>'+
-'<!-- horizontal contdiner end -->'+app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> telgu NewsPaper</div>'+
+'<!-- horizontal contdiner end -->';
+app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> telgu NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
@@ -164,7 +165,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/nava-telangana-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 '<div  onclick='+' udpf_link_finder2("vk.com/doc",https://dailyepaper.in/sakshi-epaper-pdf/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://instaoffline.net/assets/img/folder.png" alt="" width="100%" height="100px" loading="lazy"><p class="w3-center "></p></div>'+
 	'</div>'+
-'<!-- horizontal contdiner end -->'+
+'<!-- horizontal contdiner end -->';
 
 app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">Urdu NewsPaper</div>'+
 '<!-- horizontal contdiner items start--->'+
