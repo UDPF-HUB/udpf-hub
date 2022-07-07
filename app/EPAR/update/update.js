@@ -18,9 +18,9 @@ udpf.js_abrowser({
 										  var VersionCode=udpf.json_decode(a).VersionCode;	
                                                           //alert(VersionName);										  
 						          if(Website2APK.getAppVersionCode()<VersionCode)
-					 window.location.href="udpf-hub.github.io/udpf-hub/app/EPAR/update/update.html"+'?t=' +d.getTime();
+					 window.location.href="https://udpf-hub.github.io/udpf-hub/app/EPAR/update/update.html"+'?t=' +d.getTime();
 	                                                  if(Website2APK.getAppVersionName()<VersionName)
-					 window.location.href="udpf-hub.github.io/udpf-hub/app/EPAR/update/update.html"+'?t=' +d.getTime();
+					 window.location.href="https://udpf-hub.github.io/udpf-hub/app/EPAR/update/update.html"+'?t=' +d.getTime();
 								   
                                                                    });
 	
