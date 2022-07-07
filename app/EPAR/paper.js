@@ -32,7 +32,7 @@ Website2APK.openExternal(__FOUND);
 
 var app_paper='<div class="w3-bar-items w3-padding w3-left w3-margin w3-green " style=" width:90%;">  NewsPaper(s)  (Daily Updated @ 7:00 AM)</div>'+
 
-'<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white " style=" width:50%;"> English NewsPaper</div>'+
+'<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white " style=" width:50%;"> English</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
