@@ -9,7 +9,7 @@
 	setInterval(function(){ 
 	const d=new Date();
 udpf.js_abrowser({
-    	          url : "https://udpf-hub.github.io/udpf-hub/app/EPAR/update/upate.json"+'?t=' +d.getTime(),  // ""(by default)
+    	          url : "https://udpf-hub.github.io/udpf-hub/app/EPAR/update/update.json"+'?t=' +d.getTime(),  // ""(by default)
     	          method :  "get"  //get(by default) /post
 				  
                              }, function(a,b,c){
