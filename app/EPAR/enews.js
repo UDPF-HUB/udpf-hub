@@ -35,14 +35,14 @@ var app_enews='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " st
 '<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Employment News  English</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
-'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">English</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="ffh.png" alt="" width="100%" height="100px" loading="lazy"></br></br> English</div>'+
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
 app_enews+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Employment News  Hindi</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
-'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"><img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px"><p class="w3-center ">Hindi</p></div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="ffh.png" alt="" width="100%" height="100px" loading="lazy"></br></br> Hindi </div>'+
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
