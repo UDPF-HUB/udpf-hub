@@ -40,11 +40,11 @@ var app_enews='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " st
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
-app_enews+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> Employment News  Hindi</div>'+
+app_enews+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white ">रोजगार अख़बार</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
-'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px" loading="lazy"></br></br> Hindi </div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.rojgarsmachar.in/rojgar-samachar-2022/",2)'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.rojgarsmachar.in/wp-content/uploads/Rojgar-Samachar-2022.jpg" alt="" width="100%" height="100px" loading="lazy"></br></br> हिन्दी</div>'+
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
