@@ -40,7 +40,7 @@ var app_mag='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " styl
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
-var app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white" style="width:92%;"> Weakly Magazine</div>'+
+app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white" style="width:92%;"> Weakly Magazine</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://www.allexamgurublog.com/2020/04/amar-ujala-udaan-career-magazine.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="ffh.png" alt="" width="100%" height="100px" loading="lazy"></br></br> Udan </div>'+
@@ -48,7 +48,7 @@ var app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gra
 '<!-- horizontal contdiner end -->';
 
 
-var app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white" style="width:92%;"> Monthly Magazine</div>'+
+app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white" style="width:92%;"> Monthly Magazine</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
 '<div class="mycss-horizontal-container" style="width:100%;">'+
