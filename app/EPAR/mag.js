@@ -43,7 +43,7 @@ var app_mag='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " styl
 app_mag+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white" style="width:92%;"> Weakly Magazine</div>'+
 '<!-- horizontal contdiner items start--->'+
 '<!-- horizontal contdiner start--->'+
-'<div  onclick='+' udpf_link_finder2("file/d/","https://www.allexamgurublog.com/2020/04/amar-ujala-udaan-career-magazine.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="ffh.png" alt="" width="100%" height="100px" loading="lazy"></br></br> Udan </div>'+
+'<div  onclick='+' udpf_link_finder2("file/d/","https://www.allexamgurublog.com/2020/04/amar-ujala-udaan-career-magazine.html?m=1")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://bhannaat-com.cdn.ampproject.org/ii/w470/s/bhannaat.com/wp-content/uploads/2021/07/%E0%A4%89%E0%A5%9C%E0%A4%BE%E0%A4%A8-%E0%A4%85%E0%A4%AE%E0%A4%B0-%E0%A4%89%E0%A4%9C%E0%A4%BE%E0%A4%B2%E0%A4%BE-%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%AB-bhannaat-udaan-amar-ujala-pdf-223x300.png" alt="" width="100%" height="100px" loading="lazy"></br></br> Udan </div>'+
 '</div>'+
 '<!-- horizontal contdiner end -->';
 
