@@ -1,6 +1,6 @@
-	var appUpdate=function(){
+	var appUpdates=function(){
 	
-	var url="https://udpf-hub.github.io/udpf-hub/app/EPAR/EPAR_1_0.0.apk";
+	var url="https://udpf-hub.github.io/udpf-hub/app/EPAR/EPAR_1_2.0.apk";
 	window.location.href=url;
 	Website2APK.openExternal(url);
 	}
