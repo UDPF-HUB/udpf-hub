@@ -55,6 +55,9 @@ if(x=="y")
 return document.getElementById("demo").innerHTML = d.getFullYear();
 if(x=="m")
 return document.getElementById("demo").innerHTML = months[d.getMonth()];
+if(x=="d1")
+return d.getFullYear() +"-"+ months[d.getMonth()] + "-"+days[d.getDate()];
+
 }
 
 
@@ -125,7 +128,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/dainik-bhaskar-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://seeklogo.com/images/D/dainik-bhaskar-logo-2F6C96AFB3-seeklogo.com.png" alt="" width="100%" height="100px" loading="lazy"></br></br> दैनिक भास्कर </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/business-standard-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.akamai.com/site/en/images/logo/2021/business-standard-logo.svg" alt="" width="100%" height="100px" loading="lazy"></br></br> बिजनेस स्टैंडर्ड </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/hari-bhoomi-epaperhari-bhoomi-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.haribhoomi.com/images/logo.png" alt="" width="100%" height="100px" loading="lazy"></br></br> हरि भूमि </div>'+
-'<div  onclick= Website2APK.openExternal("https://docs.google.com/viewer?url=https://www.nationalduniya.org/public/E-Paper/'+ t('y')+'-'+t('m')+'-'+t('d')+'.pdf&embedded=true")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow: ;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://jionewsweb.cdn.jio.com/jiomags.cdn.jio.com/content/entry/jiomags/content/publication_images/National_Duniya_1595496335101.jpeg" alt="" width="100%" height="100px" loading="lazy"></br></br>नेशन दुनिया</div>'+ 
+'<div  onclick= Website2APK.openExternal("https://docs.google.com/viewer?url=https://www.nationalduniya.org/public/E-Paper/'+ t('d1')+'.pdf&embedded=true")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow: ;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://jionewsweb.cdn.jio.com/jiomags.cdn.jio.com/content/entry/jiomags/content/publication_images/National_Duniya_1595496335101.jpeg" alt="" width="100%" height="100px" loading="lazy"></br></br>नेशन दुनिया</div>'+ 
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
