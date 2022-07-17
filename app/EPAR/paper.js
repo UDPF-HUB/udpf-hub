@@ -1,3 +1,4 @@
+
 // Image link On error
 $('#app-main').on('DOMSubtreeModified', function(entries) {
 	//    for(var i=0; i<$("img").length;i++){
@@ -27,55 +28,18 @@ for(var i=0,y=1; i< url.length; i++) {
 
 Website2APK.openExternal(__FOUND);
  }
-function paperboy(id){
-  var url="https://www.paperboy.com/api/get_full_news_paper/v1?paper_id="+id,
-  var headers={
-     "referrer": url,
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "en-US,en;q=0.9,fil;q=0.8",
-    "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"Windows\"",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "sender": "Web"
-  };
-var op=js_browser(url,"get",headers);
-   return op.data.paper.page_url;
-}
-
 function t(x){
 const months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 const days = ["","01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12","13","14","15","16", "17", "18", "19", "20", "21", "22", "25", "24", "25", "26", "27","28","29","30","31"];
-var d = new Date("2015-07-06");
-if(x=="d")
-return document.getElementById("demo").innerHTML = days[d.getDate()];
-if(x=="y")
-return document.getElementById("demo").innerHTML = d.getFullYear();
-if(x=="m")
-return document.getElementById("demo").innerHTML = months[d.getMonth()];
-if(x=="d1")
-return d.getFullYear() +"-"+ months[d.getMonth()] + "-"+days[d.getDate()];
+var d = new Date();
+return d.getFullYear() +"-"+ months[d.getMonth()] + "-"+days[d.getDate()]; //2022-07-23
 
-}
-
-
-function paperboy(id){
-  var url="https://www.paperboy.com/api/get_full_news_paper/v1?paper_id="+id ;
-  var headers={
-'accept': 'application/json, text/plain, */*',
-'accept-encoding': 'gzip, deflate, br',
-'accept-language': 'en-US,en;q=0.9,fil;q=0.8',
-'referer':' https://www.paperboy.com/dainik-jugasankha-guwahati-epaper/176',
-'sender': 'Web',
-'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
-  };
-var op=udpf.js_browser(url,"get","", headers);
-   return udpf.json_decode(op.data.paper.page_url);
-}
-
-
+if(x=="d2")
+return days[d.getDate()] +"-"+ months[d.getMonth()] + "-"+d.getFullYear(); //23-07-2022
+	
+if(x=="d3")
+return d.getFullYear() + months[d.getMonth()] +days[d.getDate()]; //20220723
+} 
 
 var app_paper='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " style="width:92%;">  NewsPaper(s) ( Updated @ 6:30 AM)</div>'+
 
@@ -128,7 +92,7 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/dainik-bhaskar-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://seeklogo.com/images/D/dainik-bhaskar-logo-2F6C96AFB3-seeklogo.com.png" alt="" width="100%" height="100px" loading="lazy"></br></br> दैनिक भास्कर </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/business-standard-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.akamai.com/site/en/images/logo/2021/business-standard-logo.svg" alt="" width="100%" height="100px" loading="lazy"></br></br> बिजनेस स्टैंडर्ड </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/hari-bhoomi-epaperhari-bhoomi-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.haribhoomi.com/images/logo.png" alt="" width="100%" height="100px" loading="lazy"></br></br> हरि भूमि </div>'+
-'<div  onclick= '+'Website2APK.openExternal("https://docs.google.com/viewer?url=https://www.nationalduniya.org/public/E-Paper/' + t('d1')+'.pdf&embedded=true")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow: ;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://jionewsweb.cdn.jio.com/jiomags.cdn.jio.com/content/entry/jiomags/content/publication_images/National_Duniya_1595496335101.jpeg" alt="" width="100%" height="100px" loading="lazy"></br></br>नेशन दुनिया</div>'+ 
+'<div  onclick= Website2APK.openExternal("https://docs.google.com/viewer?url=https://www.nationalduniya.org/public/E-Paper/' + t('d1')+'.pdf&embedded=true")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow: ;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://jionewsweb.cdn.jio.com/jiomags.cdn.jio.com/content/entry/jiomags/content/publication_images/National_Duniya_1595496335101.jpeg" alt="" width="100%" height="100px" loading="lazy"></br></br>नेशन दुनिया</div>'+ 
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
