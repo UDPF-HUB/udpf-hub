@@ -72,7 +72,6 @@ var app_paper='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " st
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/state-times-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://epaper.statetimes.in/images/logo.jpg" alt="" width="100%" height="100px" loading="lazy"></br></br> State Times </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/assam-tribune-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://assamtribune.com/images/logo.svg" alt="" width="100%" height="100px" loading="lazy"></br></br> Assam Tribune </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/arunachal-times-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://arunachaltimes.in/wp-content/uploads/2017/09/bannerlogo.jpg" alt="" width="100%" height="100px" loading="lazy"></br></br> Arunachal Times </div>'+
-
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
@@ -94,7 +93,6 @@ app_paper+='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/business-standard-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.akamai.com/site/en/images/logo/2021/business-standard-logo.svg" alt="" width="100%" height="100px" loading="lazy"></br></br> बिजनेस स्टैंडर्ड </div>'+
 '<div  onclick='+' udpf_link_finder2("file/d/","https://pdfcave.com/hari-bhoomi-epaperhari-bhoomi-epaper.php")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://www.haribhoomi.com/images/logo.png" alt="" width="100%" height="100px" loading="lazy"></br></br> हरि भूमि </div>'+
  '<div  onclick='+'Website2APK.openExternal("https://docs.google.com/viewer?url=https://www.nationalduniya.org/public/E-Paper/'+ t("y") + '-' +t("m")+ '-' +t("d")+'.pdf&embedded=true")'+' style="width:32.333333333%;height:180px; margin-bottom:2px;margin-right:2px;text-overflow:;" class="w3-bar-items  w3-padding mycss-slide mycss-tr-gray-white w3-center"> <img src="https://jionewsweb.cdn.jio.com/jiomags.cdn.jio.com/content/entry/jiomags/content/publication_images/National_Duniya_1595496335101.jpeg" alt="" width="100%" height="100px" loading="lazy"></br></br> NATIONAL DUMIYA</div>'+
-
 	'</div>'+
 '<!-- horizontal contdiner end -->';
 
