@@ -1,6 +1,6 @@
 
-// Image link On error
-l$('#app-main').on('DOMSubtreeModified', function(entries) {
+// Image link On errors
+$('#app-main').on('DOMSubtreeModified', function(entries) {
 	//    for(var i=0; i<$("img").length;i++){
 	      //  $("img")[i].setAttribute("loading","lazy");
 	// }
@@ -40,8 +40,6 @@ return days[d.getDate()] +"-"+ months[d.getMonth()] + "-"+d.getFullYear(); //23-
 if(x=="d3")
 return d.getFullYear() + months[d.getMonth()] +days[d.getDate()]; //20220723
 } 
-
-
 
 var app_home='<div class="w3-bar-items w3-padding w3-left w3-margin mycss-tr-gray-white "> English NewsPaper </div>'+
 '<!-- horizontal contdiner items start--->'+
