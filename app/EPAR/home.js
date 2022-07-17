@@ -1,5 +1,5 @@
 // Image link On error
-$('#app-main').on('DOMSubtreeModified', function(entries) {
+l$('#app-main').on('DOMSubtreeModified', function(entries) {
 	//    for(var i=0; i<$("img").length;i++){
 	      //  $("img")[i].setAttribute("loading","lazy");
 	// }
@@ -7,7 +7,7 @@ $('#app-main').on('DOMSubtreeModified', function(entries) {
                         
 });
 
-function udpf_link_finder2(filter, url="url",ind=1){
+function udpf_link_finder2(filter, url="url",ind=1){l
 var op=udpf.js_browser(proxy_url(url)).trim();	
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm;
 var url = op.match(urlRegex);
@@ -27,6 +27,18 @@ for(var i=0,y=1; i< url.length; i++) {
 
 Website2APK.openExternal(__FOUND);
  }
+function t(x){
+const months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+const days = ["","01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12","13","14","15","16", "17", "18", "19", "20", "21", "22", "25", "24", "25", "26", "27","28","29","30","31"];
+var d = new Date();
+return d.getFullYear() +"-"+ months[d.getMonth()] + "-"+days[d.getDate()]; //2022-07-23
+
+if(x=="d2")
+return days[d.getDate()] +"-"+ months[d.getMonth()] + "-"+d.getFullYear(); //23-07-2022
+	
+if(x=="d3")
+return d.getFullYear() + months[d.getMonth()] +days[d.getDate()]; //20220723
+} 
 
 
 
