@@ -29,15 +29,16 @@ Website2APK.openExternal(__FOUND);
  }
 
 function t(x){
-var d = new Date();
+const months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+const days = ["","01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12","13","14","15","16", "17", "18", "19", "20", "21", "22", "25", "24", "25", "26", "27","28","29","30","31"];
+var d = new Date("2015-07-06");
 if(x=="d")
-return document.getElementById("demo").innerHTML = d.getDate();
+return document.getElementById("demo").innerHTML = days[d.getDate()];
 if(x=="y")
 return document.getElementById("demo").innerHTML = d.getFullYear();
 if(x=="m")
-return document.getElementById("demo").innerHTML = d.getMonth();
+return document.getElementById("demo").innerHTML = months[d.getMonth()];
 }
-
 
 
 var app_paper='<div class="w3-bar-items w3-padding w3-left w3-margin w3-red " style="width:92%;">  NewsPaper(s) ( Updated @ 6:30 AM)</div>'+
