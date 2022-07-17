@@ -1,3 +1,4 @@
+
 // Image link On error
 l$('#app-main').on('DOMSubtreeModified', function(entries) {
 	//    for(var i=0; i<$("img").length;i++){
