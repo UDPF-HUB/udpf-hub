@@ -1202,8 +1202,11 @@ Xhook.DONE = 4;
 //# sourceMappingURL=xhook.js.map
 
   xhook.after(function(request, response) {
-    if (request.url.match("https://www.hungama.com/audio-player-data/track/"))
+    if (request.url.indexOf("https://www.hungama.com/audio-player-data/track/"))
+    {
+	    console.log("xhocked : "+request.url);
       response.text = "";
+    }
   });
   
 
