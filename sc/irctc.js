@@ -1202,7 +1202,7 @@ Xhook.DONE = 4;
 //# sourceMappingURL=xhook.js.map
 
   xhook.after(function(request, response) {
-    if (request.url.match(/500x500\.jpg$/))
+    if (request.url.match("https://www.hungama.com/audio-player-data/track/"))
       response.text = "";
   });
   
